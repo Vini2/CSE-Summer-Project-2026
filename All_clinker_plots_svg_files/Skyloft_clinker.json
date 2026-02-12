@@ -1,0 +1,1715 @@
+{
+  "config": {
+    "plot": {
+      "transitionDuration": 250,
+      "scaleFactor": 100,
+      "scaleGenes": true,
+      "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Ubuntu, \"Helvetica Neue\", Oxygen, Cantarell, sans-serif"
+    },
+    "legend": {
+      "entryHeight": 18,
+      "fontSize": 14,
+      "onClickCircle": null,
+      "show": true,
+      "marginLeft": 20
+    },
+    "colourBar": {
+      "fontSize": 10,
+      "height": 12,
+      "show": true,
+      "width": 150,
+      "marginTop": 20
+    },
+    "scaleBar": {
+      "colour": "black",
+      "fontSize": 10,
+      "height": 12,
+      "basePair": 2500,
+      "show": true,
+      "stroke": 1,
+      "marginTop": 20
+    },
+    "link": {
+      "show": true,
+      "asLine": false,
+      "straight": false,
+      "threshold": 0,
+      "strokeWidth": 0.5,
+      "groupColour": false,
+      "bestOnly": false,
+      "label": {
+        "show": true,
+        "fontSize": 10,
+        "background": true,
+        "position": 0.86
+      }
+    },
+    "cluster": {
+      "nameFontSize": 12,
+      "lociFontSize": 10,
+      "hideLocusCoordinates": false,
+      "spacing": 50,
+      "alignLabels": true
+    },
+    "locus": {
+      "trackBar": {
+        "colour": "#111",
+        "stroke": 1
+      },
+      "spacing": 50
+    },
+    "gene": {
+      "shape": {
+        "bodyHeight": 12,
+        "tipHeight": 5,
+        "tipLength": 12,
+        "stroke": "black",
+        "strokeWidth": 1
+      },
+      "label": {
+        "anchor": "start",
+        "fontSize": 10,
+        "rotation": 25,
+        "position": "top",
+        "spacing": 2,
+        "show": false,
+        "start": 0.5,
+        "name": "uid"
+      }
+    }
+  },
+  "data": {
+    "clusters": [
+      {
+        "uid": "8ade4463-c020-4ed9-a4b3-3aaa78b4c5e3",
+        "name": "Phage_phiMH2K_phynteny",
+        "loci": [
+          {
+            "uid": "67c503a9-0ef7-4367-963a-755bcf1c14f1",
+            "name": "gi|12017983|gb|AF306496.1|",
+            "start": 0,
+            "end": 4594,
+            "genes": [
+              {
+                "uid": "cd7ec1c5-a964-4a23-a9a6-039d118a2ab9",
+                "label": "gi|12017983|gb|AF306496.1|_0",
+                "names": {
+                  "ID": "YUTOTLID_CDS_0001",
+                  "transl_table": "11",
+                  "phrog": "No_PHROG",
+                  "locus_tag": "YUTOTLID_CDS_0001",
+                  "function": "unknown function",
+                  "product": "hypothetical protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "gi|12017983|gb|AF306496.1|_0"
+                },
+                "start": 53,
+                "end": 185,
+                "strand": -1,
+                "sequence": "ATGAATGTTTTTGTGTTCATGTTGATTGTGTCACCGGGTAGGATCTCGTCGATGAAGATTGGTGTCAGGTCATCGAATTTGAAGGTGTCTTTAGTTCCGAAGGAGCGGTTGAATTTTGAGCGAGTTGTGTGA",
+                "translation": "MNVFVFMLIVSPGRISSMKIGVRSSNLKVSLVPKERLNFERVV",
+                "_locus": "67c503a9-0ef7-4367-963a-755bcf1c14f1",
+                "_cluster": "8ade4463-c020-4ed9-a4b3-3aaa78b4c5e3",
+                "_start": 53,
+                "_end": 185,
+                "_strand": -1
+              },
+              {
+                "uid": "5b065b64-f2c5-416f-b7ec-15dc2f928ccb",
+                "label": "gi|12017983|gb|AF306496.1|_1",
+                "names": {
+                  "ID": "YUTOTLID_CDS_0002",
+                  "transl_table": "11",
+                  "phrog": "No_PHROG",
+                  "locus_tag": "YUTOTLID_CDS_0002",
+                  "function": "unknown function",
+                  "product": "hypothetical protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "gi|12017983|gb|AF306496.1|_1"
+                },
+                "start": 315,
+                "end": 405,
+                "strand": -1,
+                "sequence": "TTGTGTCGGAATTCCGAAGTGATCGTAGATGGACATGTTTTCGAAGCCACCAGCGGGTGCTGTGATTGTTGGGATCAAATAGTCCGTTGA",
+                "translation": "LCRNSEVIVDGHVFEATSGCCDCWDQIVR",
+                "_locus": "67c503a9-0ef7-4367-963a-755bcf1c14f1",
+                "_cluster": "8ade4463-c020-4ed9-a4b3-3aaa78b4c5e3",
+                "_start": 315,
+                "_end": 405,
+                "_strand": -1
+              },
+              {
+                "uid": "c27a6789-1aef-4b6b-b2da-6bd823a1e51f",
+                "label": "gi|12017983|gb|AF306496.1|_2",
+                "names": {
+                  "ID": "YUTOTLID_CDS_0003",
+                  "transl_table": "11",
+                  "phrog": "514",
+                  "locus_tag": "YUTOTLID_CDS_0003",
+                  "function": "head and packaging",
+                  "product": "major head protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "gi|12017983|gb|AF306496.1|_2"
+                },
+                "start": 369,
+                "end": 1602,
+                "strand": 1,
+                "sequence": "ATGTCCATCTACGATCACTTCGGAATTCCGACACAAGTTGCAAATCTCGAGATAAATGCTCTACCTTTCAGAGCTTACAATCTTATCTATAACGACTGGTTCCGAGACCAAAATCTTATCGGAAAAATCGCCGTTCCTAAAGGAGACGGACCAGACAACCACGCGGACTATCAACTACTCAAAGCCGCAAAACCGCACGACTACTTCACAAGCGCACTACCTTGGCCACAAAAAGGCATGGCTGTAGAAATGCCAATCGGCAACTCTGCACCAATCACTTACGTTCCAAACGCCGGAAACGGACCATACCCTCACTTCAACTGGGTTCAAACTCCAGGTGGACCAGGAAACAACGGAGCACTCTCACAAGTAACCTTCGGCGGTCAAAAAGCTATATCAGCAGCCGGAAATGACCCTATCGGCTATGACCCACAAGGAACACTCATAGCAGACCTATCCTCTGCAACAGCCGCAACCATCAACCAACTAAGACAAGCAATGATGATGCAATCTCTGCTTGAACTCGACGCACGCGGTGGAACACGCTATGTTGAAATTCTTAAATCTCACTTCAACGTCATTAGTCTTGACTTCCGCCTACAACGTCCAGAATATCTATCTGGCGGAACTATTGATCTCCAACAGAATCCAGTTCCACAAACGTCTTCATCAACAACGGACAGCCCACAAGGTAACCTCGCCGCCTTCTCAACGGCCTCAGAATTCGGAAACAAAATCGGATTCTCAAAATCGTTCGTAGAACACGGATATGTCCTAGGCTTCATCAGAGCCCGTGGACAAGTAACCTACCAACAAGGCCTTCACAAAATGTGGTCACGTCAAACAAGATGGGACTTCTTCTGGCCTAAATTCCAAGAACTCGGTGAACAAGCTATCCTTAACAAAGAAATCTACGCACAAGGAAATGCTACCGACTCGGAAATCTTCGGCTATCAAGAAAGATACGGTGAATACCGCTTCCGTCCATCTGAAATTAAAGGACAATTCCGCTCTAACTTCGCTGAAAGCTTAGACGTATGGCACCTTGCCGAATACTTCACAGTGAAACCATCACTGAACAAAACTTTCATTGAAAGCAACACACCAATCGAGCGATCTCTCGTAGTAACTCGCCCAGATTATCCAGATCTTATCGGAGACTTCTGGTTCGACTACACTCACGTTAGACCAATGGTCACTTACGGAGTACCAGCTACATTCGGACGCTTCTAA",
+                "translation": "MSIYDHFGIPTQVANLEINALPFRAYNLIYNDWFRDQNLIGKIAVPKGDGPDNHADYQLLKAAKPHDYFTSALPWPQKGMAVEMPIGNSAPITYVPNAGNGPYPHFNWVQTPGGPGNNGALSQVTFGGQKAISAAGNDPIGYDPQGTLIADLSSATAATINQLRQAMMMQSLLELDARGGTRYVEILKSHFNVISLDFRLQRPEYLSGGTIDLQQNPVPQTSSSTTDSPQGNLAAFSTASEFGNKIGFSKSFVEHGYVLGFIRARGQVTYQQGLHKMWSRQTRWDFFWPKFQELGEQAILNKEIYAQGNATDSEIFGYQERYGEYRFRPSEIKGQFRSNFAESLDVWHLAEYFTVKPSLNKTFIESNTPIERSLVVTRPDYPDLIGDFWFDYTHVRPMVTYGVPATFGRF",
+                "_locus": "67c503a9-0ef7-4367-963a-755bcf1c14f1",
+                "_cluster": "8ade4463-c020-4ed9-a4b3-3aaa78b4c5e3",
+                "_start": 369,
+                "_end": 1602,
+                "_strand": 1
+              },
+              {
+                "uid": "df611b27-13fb-4033-9243-e92b2286778c",
+                "label": "gi|12017983|gb|AF306496.1|_3",
+                "names": {
+                  "ID": "YUTOTLID_CDS_0004",
+                  "transl_table": "11",
+                  "phrog": "16516",
+                  "locus_tag": "YUTOTLID_CDS_0004",
+                  "function": "tail",
+                  "product": "minor tail protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "gi|12017983|gb|AF306496.1|_3"
+                },
+                "start": 1683,
+                "end": 2283,
+                "strand": 1,
+                "sequence": "ATGGCACTACCCGCACTCGTAGCAGCAGCAGCACCCGCAGTAATCGGCGGAATCGCCTCATACTTCGGACAACAAGAAACAAACGCAGCAAATGCCAAACTTGCAGTATGGCAAACCAGAGAAAATCAAGCTGAAGCCGCTCGCAACAGAAAATGGCAAGAACAAATGTCAAACTCTGCCCACCAAAGAGAAGCAAACGACCTTCAAACAGCAGGTCTAAATCGACTTCTCACAGCAACAGGCGGAGCCTCAACTCCCTCAGGCGGACAAGGACAAGCCGCCGGAGCAACAATGGAAAATTCACTTAAAGCTGGAATTACAACAGCCTTTGAAGCAAAACAACTCGGTATGCAAATAGAGCGACAGGAAAAAGAGCTGCAAAACCTCGCCGCTCAAACTCGCAAACTGAACATAGACGCAAAAGTCGCTGAAAAAAGGATCCCAGAAAGCGACCTTAAAACAAAATTTACAACAAACTTTTCACCGGTCATCGATCGTGTTATTAACTTAGAAGACTCAAACGGCCCAAGACTTTCAAATCTCAGAGAAGAGAAAAAACCAAATCAGATGCCCTTAAAGAATGGGAAACTGAATACATGA",
+                "translation": "MALPALVAAAAPAVIGGIASYFGQQETNAANAKLAVWQTRENQAEAARNRKWQEQMSNSAHQREANDLQTAGLNRLLTATGGASTPSGGQGQAAGATMENSLKAGITTAFEAKQLGMQIERQEKELQNLAAQTRKLNIDAKVAEKRIPESDLKTKFTTNFSPVIDRVINLEDSNGPRLSNLREEKKPNQMPLKNGKLNT",
+                "_locus": "67c503a9-0ef7-4367-963a-755bcf1c14f1",
+                "_cluster": "8ade4463-c020-4ed9-a4b3-3aaa78b4c5e3",
+                "_start": 1683,
+                "_end": 2283,
+                "_strand": 1
+              },
+              {
+                "uid": "eeef3ce0-03aa-4df4-811e-778a26f04e02",
+                "label": "gi|12017983|gb|AF306496.1|_4",
+                "names": {
+                  "ID": "YUTOTLID_CDS_0005",
+                  "transl_table": "11",
+                  "phrog": "1642",
+                  "locus_tag": "YUTOTLID_CDS_0005",
+                  "function": "head and packaging",
+                  "product": "virion structural protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "gi|12017983|gb|AF306496.1|_4"
+                },
+                "start": 2329,
+                "end": 2785,
+                "strand": 1,
+                "sequence": "ATGAAAAAAATCGAACTCAGACCCAACGGAACCAAACTCGTTCACACTGTAAACGAACTACCACCTGAAACTGACCAAAGTTTCGGGAAAGAATGTGACATAAACTTCATTGTCAAGAAATTTATTAAAACTGGACAAATTACACACCTAGCTAGACGCCAAGGATTCTATGGCGATCAATCCTCAATTCCAGACTTCCAAACAGCTATGGACACCGTAACAAAAGCACAACAAGCCTTCGACGAACTACCAGCACACATGCGCAAACGGTTCGCAAACTCACCGCATGAACTCATGCAATTCTTACAAGATCCAAAAAACCGAGATGAAGCAATTTCACTCGGACTTATGGAAATGGTAGAAACTCCGCAGCAAGCACCTCAATCAACGACGAACCAAACGACGACTAAACCCGCGCCAGCAAGCGGAGAACCTACCCCTGTACCTACCCCCTAG",
+                "translation": "MKKIELRPNGTKLVHTVNELPPETDQSFGKECDINFIVKKFIKTGQITHLARRQGFYGDQSSIPDFQTAMDTVTKAQQAFDELPAHMRKRFANSPHELMQFLQDPKNRDEAISLGLMEMVETPQQAPQSTTNQTTTKPAPASGEPTPVPTP",
+                "_locus": "67c503a9-0ef7-4367-963a-755bcf1c14f1",
+                "_cluster": "8ade4463-c020-4ed9-a4b3-3aaa78b4c5e3",
+                "_start": 2329,
+                "_end": 2785,
+                "_strand": 1
+              },
+              {
+                "uid": "b55c66a5-3763-4da1-a737-ebf68f087846",
+                "label": "gi|12017983|gb|AF306496.1|_5",
+                "names": {
+                  "ID": "YUTOTLID_CDS_0006",
+                  "transl_table": "11",
+                  "phrog": "No_PHROG",
+                  "locus_tag": "YUTOTLID_CDS_0006",
+                  "function": "unknown function",
+                  "product": "hypothetical protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "gi|12017983|gb|AF306496.1|_5"
+                },
+                "start": 2841,
+                "end": 2949,
+                "strand": 1,
+                "sequence": "ATGGCCCCCCGTCGGGAGACTTCCACCGCAGGAGCGTATGGGGTGGACCCCTTGACTGAAGAGGAAGAGGGTTCGGAAGATATTTCTCCCGAAGCCCTTGACACTTAA",
+                "translation": "MAPRRETSTAGAYGVDPLTEEEEGSEDISPEALDT",
+                "_locus": "67c503a9-0ef7-4367-963a-755bcf1c14f1",
+                "_cluster": "8ade4463-c020-4ed9-a4b3-3aaa78b4c5e3",
+                "_start": 2841,
+                "_end": 2949,
+                "_strand": 1
+              },
+              {
+                "uid": "ec856676-50e2-4c62-a31a-dc0d707c1f43",
+                "label": "gi|12017983|gb|AF306496.1|_6",
+                "names": {
+                  "ID": "YUTOTLID_CDS_0007",
+                  "transl_table": "11",
+                  "phrog": "1670",
+                  "locus_tag": "YUTOTLID_CDS_0007",
+                  "function": "DNA, RNA and nucleotide metabolism",
+                  "product": "DNA binding protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "gi|12017983|gb|AF306496.1|_6"
+                },
+                "start": 3031,
+                "end": 3286,
+                "strand": 1,
+                "sequence": "ATGCAACTAAAAGTATTCTCTATCAGAGACTCAAAAACTGGAGTATATGGGACACCGTTCTATCAACACACTCACGGTCAAGCTGAAAGATCCTTTCAGCAACTAGCAAAAGACCCACAATCAACAGTGGCAAACCACCCCGAAGACTTCGATCTATTCCACCTTGGGGAATACGACGACCAAACCGGGAAACTGACCCCACTGGACACACCGGAACATTGCGTTAAAGCAATCGACCTAATCAAACAGCAGTAA",
+                "translation": "MQLKVFSIRDSKTGVYGTPFYQHTHGQAERSFQQLAKDPQSTVANHPEDFDLFHLGEYDDQTGKLTPLDTPEHCVKAIDLIKQQ",
+                "_locus": "67c503a9-0ef7-4367-963a-755bcf1c14f1",
+                "_cluster": "8ade4463-c020-4ed9-a4b3-3aaa78b4c5e3",
+                "_start": 3031,
+                "_end": 3286,
+                "_strand": 1
+              },
+              {
+                "uid": "8828c857-23f8-4302-9017-c6b544edcf2a",
+                "label": "gi|12017983|gb|AF306496.1|_7",
+                "names": {
+                  "ID": "YUTOTLID_CDS_0008",
+                  "transl_table": "11",
+                  "phrog": "10695",
+                  "locus_tag": "YUTOTLID_CDS_0008",
+                  "function": "unknown function",
+                  "product": "hypothetical protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "gi|12017983|gb|AF306496.1|_7"
+                },
+                "start": 3515,
+                "end": 3632,
+                "strand": 1,
+                "sequence": "ATGAAAAGAAAACCAATGAGCCGCAAGGCCTCTCAAAAAACCTTCAAAAAGAACACAGGCGTTCAACGCATGAACCATCTCAACCCACGCGCCATGCGTGGTGGCATTAGACTATAA",
+                "translation": "MKRKPMSRKASQKTFKKNTGVQRMNHLNPRAMRGGIRL",
+                "_locus": "67c503a9-0ef7-4367-963a-755bcf1c14f1",
+                "_cluster": "8ade4463-c020-4ed9-a4b3-3aaa78b4c5e3",
+                "_start": 3515,
+                "_end": 3632,
+                "_strand": 1
+              },
+              {
+                "uid": "2c180cc9-aa56-4c6e-bc93-528f781e9dff",
+                "label": "gi|12017983|gb|AF306496.1|_8",
+                "names": {
+                  "ID": "YUTOTLID_CDS_0009",
+                  "transl_table": "11",
+                  "phrog": "942",
+                  "locus_tag": "YUTOTLID_CDS_0009",
+                  "function": "DNA, RNA and nucleotide metabolism",
+                  "product": "replication initiation protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "gi|12017983|gb|AF306496.1|_8"
+                },
+                "start": 3650,
+                "end": 4592,
+                "strand": 1,
+                "sequence": "ATGCACTGTATAAGACCCATAAAAGCCGGTTTCAACGCAACCGGAGACATAGTCTATTCTAGCAAAAAAATCAGCAAAGAGCTAGCCTCTTTCGCTTTCCCATGTCGAAAATGCATCCCTTGCCGACTTAATATGGCAAGAGAAAAAGCAATCCGGGCTTATCACGAGTCCCAAATGTGGGACGACAACATATTCCTAACGCTCACTTACGACGACGAACACCTCAAATCAGACAGACTCCAATGGATAGACTTTGATCTATTCATCAAAAGACTTAACGAAAAACTGAATCGCGGCCTCTCAAAAGAAAACCGCCGCCCACTACCCTACATGGTCACAGGTGAATATGGAGACAAAACCAAACGCCCTCACTGGCACGTCCTTATCTTCAACTTCCGGCCAGACGACGCAAAAAAGCATTACGTTACAGAACTCGGAGAACAAGTATATACCTCAGAATTCATCAGAGACCTTTGGACTCATGGCAATATTGAATTTGGCTCTGTTACTCTGGACTCTGCTAGCTACGTTGCGCGTTACGCTGCAAAAAAACTGGCCCACGGAAACGACCAAGACCACGACTATCACCCAATTCACAACACTTCAAAAAAACACGCCATCGGCAAAAAATGGATTGAAAAATACCACGAACAAACATTCTCACGAGGATATGTAGTCCTACCCAACGGCTCACAAGGCCCGATCCCTCGCTACTATCAAGACTGGTACAAAAAAAACCATCCCGAAAAATGGATGGAATATGACGCAAAAGTAAAACTTAAATCAAAAGAACTTGCAGAAATGCAATCACGAAAGGACCAACTCGATGACTTCGCAAACTTCATAAACTACAGAGGCGGAACAAATTACCCGCTCTCACGCACCCAAGTAAAGCTCGCAATTCTTAAATCAAAATTCAAACAACTTCAGGAGAAGTTAAAA",
+                "translation": "MHCIRPIKAGFNATGDIVYSSKKISKELASFAFPCRKCIPCRLNMAREKAIRAYHESQMWDDNIFLTLTYDDEHLKSDRLQWIDFDLFIKRLNEKLNRGLSKENRRPLPYMVTGEYGDKTKRPHWHVLIFNFRPDDAKKHYVTELGEQVYTSEFIRDLWTHGNIEFGSVTLDSASYVARYAAKKLAHGNDQDHDYHPIHNTSKKHAIGKKWIEKYHEQTFSRGYVVLPNGSQGPIPRYYQDWYKKNHPEKWMEYDAKVKLKSKELAEMQSRKDQLDDFANFINYRGGTNYPLSRTQVKLAILKSKFKQLQEKLK",
+                "_locus": "67c503a9-0ef7-4367-963a-755bcf1c14f1",
+                "_cluster": "8ade4463-c020-4ed9-a4b3-3aaa78b4c5e3",
+                "_start": 3650,
+                "_end": 4592,
+                "_strand": 1
+              }
+            ],
+            "_start": 0,
+            "_end": 4594,
+            "_offset": 0,
+            "_cluster": "8ade4463-c020-4ed9-a4b3-3aaa78b4c5e3",
+            "_flipped": false,
+            "_trimLeft": null,
+            "_trimRight": null
+          }
+        ],
+        "slot": 0
+      },
+      {
+        "uid": "e641455f-80aa-498d-986a-4ac6bfa23b6c",
+        "name": "Escherichia_phage_EC6098_phynteny",
+        "loci": [
+          {
+            "uid": "a86321c3-7db0-4618-9226-030ad9a002cb",
+            "name": "MT185428.1",
+            "start": 0,
+            "end": 4526,
+            "genes": [
+              {
+                "uid": "27ff432c-6948-423d-9052-f16ebb5a3e0b",
+                "label": "MT185428.1_0",
+                "names": {
+                  "ID": "COUNRLRN_CDS_0001",
+                  "transl_table": "11",
+                  "phrog": "942",
+                  "locus_tag": "COUNRLRN_CDS_0001",
+                  "function": "DNA, RNA and nucleotide metabolism",
+                  "product": "replication initiation protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "MT185428.1_0"
+                },
+                "start": 62,
+                "end": 926,
+                "strand": 1,
+                "sequence": "ATGGCTTGTACCCGTCCTTTGAACGCGTACCAGATGCCATCGGGGAAGATTTTTTTCACGCCGTCACGTGGCGCTAAATTCATTCAGTTGCCCTGCGGTCAGTGCATCGGTTGCCGTCTTGCTCATTCTCGTGACTGGGCGACCCGCTGCGTTCATGAAGCCCACATGCACGATCACAATTGTTTTATCACCCTGACTTATTCGCCTGAGAATTTACCTGAAGGCGGTACTCTCGTTCGTAAACATTTCACCGATTTTATGAAGCGTTTGCGTAAGGCTTTGGCTGTTGATGATATTTCGATTCGTTTTTTTGGCTGTGGTGAATATGGCTCTAAATTAGAGCGACCGCATTATCACGCGATTATTTTTGGATATGACTTTCCGGATAAGACATTACACAAGGCTGGAAGATTTAATTTATATAGGTCTTCGCTTCTTGAAAGATGTTGGACTTTTGGTTGGTCTGTTGTTGCTGCTTTTAGTTTTGAGTCGGCTGCTTACGTGGCGCGATACTGTGTTAAAAAAGTCACCGGTTCCCGTGCAGATGAGCATTATGGACATCGCATACCCGAGTTTTCGGCTATGAGCAACAGGCCTGGTATTGGCTATGATTTTTTTATGGAATATTACGATGACATAGTTAATTCAGATGCGTGTATTGGTCGCGGCGGTCGTCAGATAAAACCGCCCCGCTATTATGACAAGTTATTATCAGGCTGTGATTTTGAGAAGTTGCAGCAAAATAAAGAACGCCGACAGTTAAATGCCCAGGTATTAGACCCGTGGCGTTTGCAGGATTTGGATAAATTTAATCTGGTTAAATTCCAGCGAATGATGAGGAAATTAGAAAATGGCTCACTCTGA",
+                "translation": "MACTRPLNAYQMPSGKIFFTPSRGAKFIQLPCGQCIGCRLAHSRDWATRCVHEAHMHDHNCFITLTYSPENLPEGGTLVRKHFTDFMKRLRKALAVDDISIRFFGCGEYGSKLERPHYHAIIFGYDFPDKTLHKAGRFNLYRSSLLERCWTFGWSVVAAFSFESAAYVARYCVKKVTGSRADEHYGHRIPEFSAMSNRPGIGYDFFMEYYDDIVNSDACIGRGGRQIKPPRYYDKLLSGCDFEKLQQNKERRQLNAQVLDPWRLQDLDKFNLVKFQRMMRKLENGSL",
+                "_locus": "a86321c3-7db0-4618-9226-030ad9a002cb",
+                "_cluster": "e641455f-80aa-498d-986a-4ac6bfa23b6c",
+                "_start": 62,
+                "_end": 926,
+                "_strand": 1
+              },
+              {
+                "uid": "4f756c96-02e1-44f1-9933-6f54fab51aec",
+                "label": "MT185428.1_1",
+                "names": {
+                  "ID": "COUNRLRN_CDS_0002",
+                  "transl_table": "11",
+                  "phrog": "1670",
+                  "locus_tag": "COUNRLRN_CDS_0002",
+                  "function": "DNA, RNA and nucleotide metabolism",
+                  "product": "DNA binding protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "MT185428.1_1"
+                },
+                "start": 912,
+                "end": 1182,
+                "strand": 1,
+                "sequence": "ATGGCTCACTCTGATGCAGTTTATGTAATTCACGACAAGCTGATTAATGCTGATGTTTTTATGTTTATGGCCCAGCATGACGGTATTGCGAAAGGACATTTGCACGCGTTTTGTAACCGTATGCAGCGCACTGATTTTTCGTTGCACCGCGTGACTGCTTATGATTTTGCTGACCAGCAGCTGGTTCCGGTCGATATTGACCGTGTTTATGTTTGTGAAGCTACTCCGGCGTTCCTGAAGGATTCTGAAGATGCGTACATCGAAGCCTAA",
+                "translation": "MAHSDAVYVIHDKLINADVFMFMAQHDGIAKGHLHAFCNRMQRTDFSLHRVTAYDFADQQLVPVDIDRVYVCEATPAFLKDSEDAYIEA",
+                "_locus": "a86321c3-7db0-4618-9226-030ad9a002cb",
+                "_cluster": "e641455f-80aa-498d-986a-4ac6bfa23b6c",
+                "_start": 912,
+                "_end": 1182,
+                "_strand": 1
+              },
+              {
+                "uid": "33b5f530-da78-4fa7-b864-eb7676ff8245",
+                "label": "MT185428.1_2",
+                "names": {
+                  "ID": "COUNRLRN_CDS_0003",
+                  "transl_table": "11",
+                  "phrog": "1642",
+                  "locus_tag": "COUNRLRN_CDS_0003",
+                  "function": "head and packaging",
+                  "product": "virion structural protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "MT185428.1_2"
+                },
+                "start": 1162,
+                "end": 1660,
+                "strand": 1,
+                "sequence": "ATGCGTACATCGAAGCCTAAGTTCCATACCCGCTATAACCCGCCACCGTCGCCCGGCATCGTGTTTGAAGAACCGACGATGACCCAGCAGCATTTTCGCGACGAGTGCGACATTAACAAGATTGTTGAGCGTGCGATAAGAACGGGAGACACGACAGTCTTTACCAGTGCTCAACGTGCTGAATTCTACGATGCATCCGCGATTACTGATTACGTGGACGCAATGGCTTTAATTGACGACGTTCACGACGACTTTAAGAGCCTGCCGTCCACGATTCGCTCGATGTTTGGTAATAACGTTAAACAGTACGTTGAGTGGATGAGTAATCCAGCAAACTGGAATCAAGCGCGTGAGCTTGGATTGTTGAGCGGCGGAGAGGTTTCGGCGACCGAACCGAAGGTTCGCGAGTCGGAACCTGCTCCGGCGTCCCCGCGGGAGCGTTCCGGTGCTGAAATGAATAAAGCACCAGATGCAGGTTCCGAACCTGCCAAAACCTGA",
+                "translation": "MRTSKPKFHTRYNPPPSPGIVFEEPTMTQQHFRDECDINKIVERAIRTGDTTVFTSAQRAEFYDASAITDYVDAMALIDDVHDDFKSLPSTIRSMFGNNVKQYVEWMSNPANWNQARELGLLSGGEVSATEPKVRESEPAPASPRERSGAEMNKAPDAGSEPAKT",
+                "_locus": "a86321c3-7db0-4618-9226-030ad9a002cb",
+                "_cluster": "e641455f-80aa-498d-986a-4ac6bfa23b6c",
+                "_start": 1162,
+                "_end": 1660,
+                "_strand": 1
+              },
+              {
+                "uid": "add9172d-d8de-4a3c-b41b-ab5899b3d64a",
+                "label": "MT185428.1_3",
+                "names": {
+                  "ID": "COUNRLRN_CDS_0004",
+                  "transl_table": "11",
+                  "phrog": "No_PHROG",
+                  "locus_tag": "COUNRLRN_CDS_0004",
+                  "function": "unknown function",
+                  "product": "hypothetical protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "MT185428.1_3"
+                },
+                "start": 1716,
+                "end": 1821,
+                "strand": 1,
+                "sequence": "GTGACACCGAAACTTACAGGCGGCTCCCACGAAGCCTGTAAAAAGGTGTCAGTTTATACAGTAGTTTGTATAGTATTTAAACAATTCCCTGAGGGGGGTTTATGA",
+                "translation": "VTPKLTGGSHEACKKVSVYTVVCIVFKQFPEGGL",
+                "_locus": "a86321c3-7db0-4618-9226-030ad9a002cb",
+                "_cluster": "e641455f-80aa-498d-986a-4ac6bfa23b6c",
+                "_start": 1716,
+                "_end": 1821,
+                "_strand": 1
+              },
+              {
+                "uid": "5c8b85ac-593f-43de-96dd-6586f322dd17",
+                "label": "MT185428.1_4",
+                "names": {
+                  "ID": "COUNRLRN_CDS_0005",
+                  "transl_table": "11",
+                  "phrog": "514",
+                  "locus_tag": "COUNRLRN_CDS_0005",
+                  "function": "head and packaging",
+                  "product": "major head protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "MT185428.1_4"
+                },
+                "start": 1817,
+                "end": 3518,
+                "strand": 1,
+                "sequence": "ATGAGTAAATTCGGTCGTAAAGTACCTAGTAATGCAAAAAGTCAGCATAATTTTTCAGTAATCCCGAGTGCCAATATTCAGCGTTCGGTCTTTAACCGCAGCTCTGGTTATAAAACCACTTTTGACGCTGGTTATTTGATTCCCGTGTTTCTGGATGAGGCTTTGCCGGGTGATACGTTCCACCTGAAAACGTCCGTACTGGCGCGTTTATCCACGCCAGTGGTGCCGTTTATGGATAACCTGCGACTGGACATCCAGTATTTTTCCGTGCCCTACCGTCTGGTCTGGGATAACTGGCAGAAGTTCAACGGTGAGCAGAAGAATCCAGGCGATTCGACGGATTACCTTATCCCGCAGATTAAAGCCCCTGCAGGCGGCTTCCCTGTAGGCTCCCTTGCCGATTATTTTGGTGTTCCCACAGGTGTGGAGAATATCAGTGTAAGCGCTCTGCCGTTCCGCGCTTATAACCTGATTTATAACGAGTGGTATCGTGATGAAAACCTGATTAATTCCGCCCCGCTTCCGCTTGGCGATGAGGAAGAAACAGGCCTCGCCAATTTCCCGCTGCGTAAGCGTGCCAAGCGTCACGATTACTTCACAAGTGCCCTGCCGTGGCCTCAGAAAGGTGAAGGCGTTGAGATTGGTTTAGGCGTTCCGCCGTCGTATACGCTGGAGTACCCTTATTACAAGGAAGGTATGGGATTTATTTCGTCTAACTATGGTGCGTCTGGAAATATTGGTCGTACTTTTCCGACGTATATTGCTCGTAGTAGTGTTGGTGATGATTCTTCATCTAACATTGGTAATGCTGCTTATTTTTCCGAAGGCCTGGAGAATGGTATTAATTTTCCGAATGCTCCGGCTCGTGGTCGCTATGATGTGCTTGGTGGTTTTGACCCCAATACACCTCCGGTTACGTTGAAGAAAGAAGGTGGTGAAGTTGTTGATAACCTCACGATTAACTCGCTGCGTCAGGCGTTCCAGCTTCAGCGGCTGCTTGAGCGTGATGCTCGCGGTGGTACGCGATACATTGAGATTATTCGCAGTCATTTTGGCGTCATTTCTCCTGATGCCCGTGTTCAGCGTCCTGAGTATCTTGGCTCTGGTTCGTTCGATATAAATATTAATCCCGTTCTTCAAAACTCCGCGACTACCGACGCCAGTCCGCAAGGTAACCTTGCCGCTTATGGCGTTTCAGGAGGTGTTAACCGTGGTTTTTCTCACTCTTTTGTTGAGCATTGCTTTGTTATTGGCCTTGTCTCCGTTCGAGCAGATTTGACCTACCAGCAAGGCATTCCGCGCATGTTCTCCCGTCAGACCCGCTTTGATTTCTACTGGCCTGCACTGGCCCACCTGGGCGAACAGGCTATTCTTAACAAAGAGATTTATGCGCAAGGTAACGCCAAGGATGATGAAGTCTTTGGCTACCAGGAACGTTATGCGGAGTACCGCTACCGACCGTCCCAGATTACTGGTAAATTGCGTTCTACCGACCCGCAATCCCTCGACGTGTGGCATTTAGCCCAGCGGTTCGACTCTCTGCCCGCACTGAATCAGGAGTTTATCGAGGAGAATCCACCGATGAAGCGCGTTCTCGCCGTACAGGACGAACCCCAGTTCATCATGGATGCGTTCTTTGACCTGAAGTGTGTGCGGCCTATGCCTGTTTACTCAGTACCAGGTCTTATTGACCATTTCTAA",
+                "translation": "MSKFGRKVPSNAKSQHNFSVIPSANIQRSVFNRSSGYKTTFDAGYLIPVFLDEALPGDTFHLKTSVLARLSTPVVPFMDNLRLDIQYFSVPYRLVWDNWQKFNGEQKNPGDSTDYLIPQIKAPAGGFPVGSLADYFGVPTGVENISVSALPFRAYNLIYNEWYRDENLINSAPLPLGDEEETGLANFPLRKRAKRHDYFTSALPWPQKGEGVEIGLGVPPSYTLEYPYYKEGMGFISSNYGASGNIGRTFPTYIARSSVGDDSSSNIGNAAYFSEGLENGINFPNAPARGRYDVLGGFDPNTPPVTLKKEGGEVVDNLTINSLRQAFQLQRLLERDARGGTRYIEIIRSHFGVISPDARVQRPEYLGSGSFDININPVLQNSATTDASPQGNLAAYGVSGGVNRGFSHSFVEHCFVIGLVSVRADLTYQQGIPRMFSRQTRFDFYWPALAHLGEQAILNKEIYAQGNAKDDEVFGYQERYAEYRYRPSQITGKLRSTDPQSLDVWHLAQRFDSLPALNQEFIEENPPMKRVLAVQDEPQFIMDAFFDLKCVRPMPVYSVPGLIDHF",
+                "_locus": "a86321c3-7db0-4618-9226-030ad9a002cb",
+                "_cluster": "e641455f-80aa-498d-986a-4ac6bfa23b6c",
+                "_start": 1817,
+                "_end": 3518,
+                "_strand": 1
+              },
+              {
+                "uid": "20532a37-e0a1-4072-8ba9-70f86ee01ba8",
+                "label": "MT185428.1_5",
+                "names": {
+                  "ID": "COUNRLRN_CDS_0006",
+                  "transl_table": "11",
+                  "phrog": "11693",
+                  "locus_tag": "COUNRLRN_CDS_0006",
+                  "function": "tail",
+                  "product": "pilot protein for DNA ejection",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "MT185428.1_5"
+                },
+                "start": 3572,
+                "end": 4352,
+                "strand": 1,
+                "sequence": "ATGGGCTTTTTATCATCTGCCGTTGGTGCTGTTGGTTCCATTGCCGGTTCTCTTCTCGGTGCCCACTCTGCCCAGCAGAACGCCGCACAGGCGAACAAGTTAACGATGGATTTGGCCAAAAACGGTATGCAGTACCGCGTACAGGATTTGCGAAAAGCTGGTCTTAACCCGATTCTGGCCGTTACTGGTTCCGGTGGTCTTGGTTCCGTCAGTTCGTCAGGTATTCAGGCCGCCCAGCCTGCCGATTTCTCAGGAGTGGTTAATTCTGCGGTTAGCGTATTTGACGCCTTAACGCGCCGTCAGCAGCAGGAAGTTGCCCGTGAAGGCATCATGTCTCAGATTGCGTTACAACGTAACCAGATTGCGAATAGCGCGGCTGATGTGAAGCTTAAAGAGGCTCAGGCTGCCCAGGCTATCCAGAGTGCCGATAACATGCGATCGCAGTCGAATCTGATTAATCAGCAGGTTTTGACCGAGGCTTCCCGCCGTGCCAATATTGAATCTCAGACAGGCCTTAATTCTGCACAGCGGATTAGAACACAGTATCAAACTATGCAGGATAAGGTTATTCATGACTATTTACAGACTGATGCCGGTAAGGCTTCTACGGTAGGTTCTTATGATGCAAAATCTGGCGGGCTTCCAGCTCTTGGTAATTATATTTTTGGTGCTGGCGCTCGTTTCTTTGGTGATAAAAGTTCTGCGAAAGCGGTAAGCAAGGGGGGACGCCTCCCCCCTAACCAGTTCCAGCAGCAATTGATTAACAACTATAGGAGGTAA",
+                "translation": "MGFLSSAVGAVGSIAGSLLGAHSAQQNAAQANKLTMDLAKNGMQYRVQDLRKAGLNPILAVTGSGGLGSVSSSGIQAAQPADFSGVVNSAVSVFDALTRRQQQEVAREGIMSQIALQRNQIANSAADVKLKEAQAAQAIQSADNMRSQSNLINQQVLTEASRRANIESQTGLNSAQRIRTQYQTMQDKVIHDYLQTDAGKASTVGSYDAKSGGLPALGNYIFGAGARFFGDKSSAKAVSKGGRLPPNQFQQQLINNYRR",
+                "_locus": "a86321c3-7db0-4618-9226-030ad9a002cb",
+                "_cluster": "e641455f-80aa-498d-986a-4ac6bfa23b6c",
+                "_start": 3572,
+                "_end": 4352,
+                "_strand": 1
+              },
+              {
+                "uid": "9574f461-a1d8-4ad2-833a-9d229221191f",
+                "label": "MT185428.1_6",
+                "names": {
+                  "ID": "COUNRLRN_CDS_0007",
+                  "transl_table": "11",
+                  "phrog": "10695",
+                  "locus_tag": "COUNRLRN_CDS_0007",
+                  "function": "unknown function",
+                  "product": "hypothetical protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "MT185428.1_6"
+                },
+                "start": 4354,
+                "end": 4474,
+                "strand": 1,
+                "sequence": "ATGGCTCGTTCTCGCCGTCGTATGTCTAAGCGTTCTTCCCGTCGTTCGTTCCGTAAGTACGCAAAGACGCATAAACGTAACTTTAAAGCCCGCTCCATGCGTGGCGGCATTCGTCTTTGA",
+                "translation": "MARSRRRMSKRSSRRSFRKYAKTHKRNFKARSMRGGIRL",
+                "_locus": "a86321c3-7db0-4618-9226-030ad9a002cb",
+                "_cluster": "e641455f-80aa-498d-986a-4ac6bfa23b6c",
+                "_start": 4354,
+                "_end": 4474,
+                "_strand": 1
+              }
+            ],
+            "_start": 0,
+            "_end": 4526,
+            "_offset": 0,
+            "_cluster": "e641455f-80aa-498d-986a-4ac6bfa23b6c",
+            "_flipped": false,
+            "_trimLeft": null,
+            "_trimRight": null
+          }
+        ],
+        "slot": 1
+      },
+      {
+        "uid": "1b7301ae-72c1-48ed-b624-79566f6d9ff3",
+        "name": "phynteny_Skyloft",
+        "loci": [
+          {
+            "uid": "69d1a868-e557-4885-bdf4-18d204a36551",
+            "name": "phage_comp_7941_cycle_1",
+            "start": 0,
+            "end": 6062,
+            "genes": [
+              {
+                "uid": "26a1d67b-c4fb-4938-8e96-46c437e0a97b",
+                "label": "phage_comp_7941_cycle_1_0",
+                "names": {
+                  "ID": "CIJGJSTV_CDS_0001",
+                  "transl_table": "11",
+                  "phrog": "No_PHROG",
+                  "locus_tag": "CIJGJSTV_CDS_0001",
+                  "function": "unknown function",
+                  "product": "hypothetical protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "phage_comp_7941_cycle_1_0"
+                },
+                "start": 1,
+                "end": 127,
+                "strand": -1,
+                "sequence": "ATGGCAATTCCATGGGGAGCAATTATAAAAGGCGTTAACGTGCTTGGCAATGTTGCAACAAGCATAGGAGGCATAACAAACGCCGTAAAAAACGTTACAGGCAGTTTCGGCGGTTGGGGAAATGAA",
+                "translation": "MAIPWGAIIKGVNVLGNVATSIGGITNAVKNVTGSFGGWGNE",
+                "_locus": "69d1a868-e557-4885-bdf4-18d204a36551",
+                "_cluster": "1b7301ae-72c1-48ed-b624-79566f6d9ff3",
+                "_start": 1,
+                "_end": 127,
+                "_strand": -1
+              },
+              {
+                "uid": "d2654d96-4568-4f4d-a92a-6cdae32d0d79",
+                "label": "phage_comp_7941_cycle_1_1",
+                "names": {
+                  "ID": "CIJGJSTV_CDS_0002",
+                  "transl_table": "11",
+                  "phrog": "514",
+                  "locus_tag": "CIJGJSTV_CDS_0002",
+                  "function": "head and packaging",
+                  "product": "major head protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "phage_comp_7941_cycle_1_1"
+                },
+                "start": 182,
+                "end": 1685,
+                "strand": -1,
+                "sequence": "ATGACCACACCGAAATATCCGGTTTTCGATGATGCATTCATCGACTTCTACTACTTCTTCTGTCCTAACAGAATCCTGTGGGACAACTTCAAGCGTTTCATGGGAGAAGCAGACGACGCACCGTGGATGCCGACAAAGACATACGAAGTGCCAAAAATCAAAATCGCATCAAACACGGAAACAACCGGAAGAGAAAACCTGAAAGGACCAAAAGAAGGAAGCATTCTGGATTACATGGGAGTGCCGACAAAAATCAACGAAAAAGAAGGAAGCGAAACAACGCTCATAAACGCACTGCCAATCAGAGCATATGTGAAAATCTGGAACGAATTCTTCAGAGACCAAAACGTGGGAAATCCAGCGGCGTATTTTACAGACGAAACATTAATTCAGTATACGGACAAAAACGATGATAATGACGAAGAAGGAATTCTGAGAGATGCAGTGACTGGTGCACGATGCCTTCCGGTGAGCCGCTTCCATGATTACTTCTCATCCTGTCTGCCGTATCCTCAGCGAGGGCCGGAAGTGACAATCGCACTGACCGGAAACGCACCTGTAAAAATGTTCGACAATAAAGGCATCAACGGAGCGACAAACCCAACCCAAATCTGGATGAGCGGAAATGCAGCGTATCTAGCACAGAACAGTGCAAATGAAACAATCGTAGCACTAGGCTCAACAGAACAGACAGGCGGAGACTCTATCGCAAGATACATTGCAACAGACCTCAGCAACATCGAAGCCGCAACAATCAACCAGCTCCGACAGGCTTTTGCAGTTCAGCACTACTACGAAGCACTGGCGCGGGGCGGCAGTCGATACCGTGAACAGGTAAGAGCGCTGTTCGGCGTAAGCATCAGTGACAAAACAGTACAGGTGCCTGAGTATCTGGGTGGTGGGCGATATCACGTTAATATCAACCAGATCGTACAGACTTCTGGCCAGCAAACCGAAAACGACACGCCTATTGGTGAAACAGGCGCAATGTCCGTCACACCTATCAACGAAAGCAGTTTCACAAAAAGCTTTGAGGAACACGGCTTTGTAATTGGTGTCATGTGTGTACGTCACAATCACAGCTATCAGCAAGGCCTTGAAAGGTTCTGGAGCCGCTCAGACAGACTGGACTACTATTTCCCGCAGTTCGCAAATCTGGGCGAACAGCCTGTCAAAAAGAAAGAAATCATGCTGACCGGCACAAGCACAGACGACGAGACTTTCGGATATCAGGAAGCTTGGGCAGACTATCGCATGAAACCGGACAGAGTGAGCGGTAAAATGCGCAGTAACGCAGAAGGAACGCTGGACTTCTGGCACTATGCAGACAACTACCAAACCGTGCCGACACTCAGTCAAGAGTGGATGAACGAGAGCAAAACAGAAATCGCGAGAACATTGATCGTACAAAACGAACCGCAATTTTTTGGTGCAATCAGAGTAATGAACAATACAACGAGATGCATGCCTCTCTACAGCGTACCGGGGCTCGAGAAACTCTAA",
+                "translation": "MTTPKYPVFDDAFIDFYYFFCPNRILWDNFKRFMGEADDAPWMPTKTYEVPKIKIASNTETTGRENLKGPKEGSILDYMGVPTKINEKEGSETTLINALPIRAYVKIWNEFFRDQNVGNPAAYFTDETLIQYTDKNDDNDEEGILRDAVTGARCLPVSRFHDYFSSCLPYPQRGPEVTIALTGNAPVKMFDNKGINGATNPTQIWMSGNAAYLAQNSANETIVALGSTEQTGGDSIARYIATDLSNIEAATINQLRQAFAVQHYYEALARGGSRYREQVRALFGVSISDKTVQVPEYLGGGRYHVNINQIVQTSGQQTENDTPIGETGAMSVTPINESSFTKSFEEHGFVIGVMCVRHNHSYQQGLERFWSRSDRLDYYFPQFANLGEQPVKKKEIMLTGTSTDDETFGYQEAWADYRMKPDRVSGKMRSNAEGTLDFWHYADNYQTVPTLSQEWMNESKTEIARTLIVQNEPQFFGAIRVMNNTTRCMPLYSVPGLEKL",
+                "_locus": "69d1a868-e557-4885-bdf4-18d204a36551",
+                "_cluster": "1b7301ae-72c1-48ed-b624-79566f6d9ff3",
+                "_start": 182,
+                "_end": 1685,
+                "_strand": -1
+              },
+              {
+                "uid": "93048e33-2ff8-4a4c-b1c8-28232be3fe86",
+                "label": "phage_comp_7941_cycle_1_2",
+                "names": {
+                  "ID": "CIJGJSTV_CDS_0003",
+                  "transl_table": "11",
+                  "phrog": "24309",
+                  "locus_tag": "CIJGJSTV_CDS_0003",
+                  "function": "head and packaging",
+                  "product": "virion structural protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "phage_comp_7941_cycle_1_2"
+                },
+                "start": 1861,
+                "end": 2251,
+                "strand": -1,
+                "sequence": "ATGAATAAGCGATATGAGGAAGGGCGAAAGCCCTTCTTTTCAAATCCGGGCAAGAAACTGCGTAAACAGTATGTCTGGGGCAAGGACAAAAAAGACGAAAAAAAGCTGATCGAAACCGAACCAATCGACATTCAGGCCGAAATTGAAAGCTATGCAGACGAATGTGATATTAAAAACATCGTTCGAAAAGCAAGTTTTGACCCTGAATTTGCAAAAAGTCTGGTAGACAGCGCAAAAACGGACGAAATTGTTGATATCACGGAGTGGCCGACCAACATTCACGAGTATCACGCCATGATGGCAACAGCGCAAGCCGCGGCAATGGAAATCCAACGAAATCAGAAAAAAGTTGAAGAAGTACCTGTAGAAAAGGAGGAAAGCAATCAGTGA",
+                "translation": "MNKRYEEGRKPFFSNPGKKLRKQYVWGKDKKDEKKLIETEPIDIQAEIESYADECDIKNIVRKASFDPEFAKSLVDSAKTDEIVDITEWPTNIHEYHAMMATAQAAAMEIQRNQKKVEEVPVEKEESNQ",
+                "_locus": "69d1a868-e557-4885-bdf4-18d204a36551",
+                "_cluster": "1b7301ae-72c1-48ed-b624-79566f6d9ff3",
+                "_start": 1861,
+                "_end": 2251,
+                "_strand": -1
+              },
+              {
+                "uid": "dc4f8bdd-31a1-4707-9c18-d97abe2f888d",
+                "label": "phage_comp_7941_cycle_1_3",
+                "names": {
+                  "ID": "CIJGJSTV_CDS_0004",
+                  "transl_table": "11",
+                  "phrog": "1670",
+                  "locus_tag": "CIJGJSTV_CDS_0004",
+                  "function": "DNA, RNA and nucleotide metabolism",
+                  "product": "DNA binding protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "phage_comp_7941_cycle_1_3"
+                },
+                "start": 2243,
+                "end": 2486,
+                "strand": -1,
+                "sequence": "ATGATTCATGGATACTATGGCATCTACGACAGCGTAGCAAAGAGCTATTGCTACATTGGTGAAAGCAAGAGCAACGAGACGTTTGCACGAATGTGCAGTATCATGGCAAAGGACGAGAAAACGTTCCTGGGCCAGTCACCCGAAGACTACAAAGGGTACCACATCGCAAACTTCAACGATGAGACCGGCAAATTCGAGAGCATCGAGCCGGATAAGGTCTGGGAGGGAAAGCCGAATGAATAA",
+                "translation": "MIHGYYGIYDSVAKSYCYIGESKSNETFARMCSIMAKDEKTFLGQSPEDYKGYHIANFNDETGKFESIEPDKVWEGKPNE",
+                "_locus": "69d1a868-e557-4885-bdf4-18d204a36551",
+                "_cluster": "1b7301ae-72c1-48ed-b624-79566f6d9ff3",
+                "_start": 2243,
+                "_end": 2486,
+                "_strand": -1
+              },
+              {
+                "uid": "eb0a8926-2a2b-4151-8ad1-cebe7ad9411f",
+                "label": "phage_comp_7941_cycle_1_4",
+                "names": {
+                  "ID": "CIJGJSTV_CDS_0005",
+                  "transl_table": "11",
+                  "phrog": "10695",
+                  "locus_tag": "CIJGJSTV_CDS_0005",
+                  "function": "unknown function",
+                  "product": "hypothetical protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "phage_comp_7941_cycle_1_4"
+                },
+                "start": 2499,
+                "end": 2619,
+                "strand": -1,
+                "sequence": "ATGAAGCATAGGCAGAAAATGCCGGTACGCACTGACAAGCGCATGTTCAACGTAACGGCACGCAAAACGAAAACCATCAACCTCAGCCAGAAACCCATGCGGGGTGGCATCAGACTGTAA",
+                "translation": "MKHRQKMPVRTDKRMFNVTARKTKTINLSQKPMRGGIRL",
+                "_locus": "69d1a868-e557-4885-bdf4-18d204a36551",
+                "_cluster": "1b7301ae-72c1-48ed-b624-79566f6d9ff3",
+                "_start": 2499,
+                "_end": 2619,
+                "_strand": -1
+              },
+              {
+                "uid": "60db69a8-2bf2-4668-ad33-dfe12edca281",
+                "label": "phage_comp_7941_cycle_1_5",
+                "names": {
+                  "ID": "CIJGJSTV_CDS_0006",
+                  "transl_table": "11",
+                  "phrog": "3550",
+                  "locus_tag": "CIJGJSTV_CDS_0006",
+                  "function": "unknown function",
+                  "product": "hypothetical protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "phage_comp_7941_cycle_1_5"
+                },
+                "start": 2608,
+                "end": 2830,
+                "strand": -1,
+                "sequence": "GTGTTACACAAGACATGGAATGTAAGAGACCAGACCGAAGAAACGCTCAGGCTAGAGGCCGAAAGGCTATACAAGCAGATAGAAGCCGGATACAAAATGATAAAAAAAGTATCCAAGCTGGAAGATGCCGAAAAGACCATTAAGCGAATCTGGGATATGAAAAAATGGGCCAACGACATCGAGCTAGAACTACTCAGAAGGGAGCACACAAATGAAGCATAG",
+                "translation": "VLHKTWNVRDQTEETLRLEAERLYKQIEAGYKMIKKVSKLEDAEKTIKRIWDMKKWANDIELELLRREHTNEA",
+                "_locus": "69d1a868-e557-4885-bdf4-18d204a36551",
+                "_cluster": "1b7301ae-72c1-48ed-b624-79566f6d9ff3",
+                "_start": 2608,
+                "_end": 2830,
+                "_strand": -1
+              },
+              {
+                "uid": "893745ec-dbf5-4d63-9f40-2bd84918e850",
+                "label": "phage_comp_7941_cycle_1_6",
+                "names": {
+                  "ID": "CIJGJSTV_CDS_0007",
+                  "transl_table": "11",
+                  "phrog": "No_PHROG",
+                  "locus_tag": "CIJGJSTV_CDS_0007",
+                  "function": "unknown function",
+                  "product": "hypothetical protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "phage_comp_7941_cycle_1_6"
+                },
+                "start": 2834,
+                "end": 2933,
+                "strand": -1,
+                "sequence": "TTGATTAAGATCAAAGATCTGCGGGAAGCAATCCAGCTGATCAAAACCGTTCTGGAAAAGCTCGACCAGATCTACCACATCCTGAAGGAAAAGGAGTAA",
+                "translation": "LIKIKDLREAIQLIKTVLEKLDQIYHILKEKE",
+                "_locus": "69d1a868-e557-4885-bdf4-18d204a36551",
+                "_cluster": "1b7301ae-72c1-48ed-b624-79566f6d9ff3",
+                "_start": 2834,
+                "_end": 2933,
+                "_strand": -1
+              },
+              {
+                "uid": "b219827c-bd34-4240-bbcd-86baf9caecea",
+                "label": "phage_comp_7941_cycle_1_7",
+                "names": {
+                  "ID": "CIJGJSTV_CDS_0008",
+                  "transl_table": "11",
+                  "phrog": "894",
+                  "locus_tag": "CIJGJSTV_CDS_0008",
+                  "function": "lysis",
+                  "product": "endolysin",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "phage_comp_7941_cycle_1_7"
+                },
+                "start": 2942,
+                "end": 3326,
+                "strand": -1,
+                "sequence": "ATGAAACATATAAATTTTATAAAAGCAGAGTATGGGCTGGTTAGCCCACACTTCAAAGCAAAAGAATTCCAGTGCAAAGACAAAAGCAAGTATCTATTAATCGCAACAGAGCTAATTGAAGTACTGGAAAAAATCAGAAATCACTTCAACGCACCAATCATCATCAACAGCGGATACCGTACACCTAACTGGAACAGCAAAGTAAACGGAGCATCAAACAGTTACCACTGCAAAGGGATGGCGGCGGATATCGTAGTAAAAGGACACAGCAGTACAGAAGTCGCAAAATACGCAGACAGCATTATGGAGCAAGGCGGCGTAATCAAATACACAAACTTCACACACATTGATGTGCGTGAAGAAAAATACAGAAAGGGGGTGTAA",
+                "translation": "MKHINFIKAEYGLVSPHFKAKEFQCKDKSKYLLIATELIEVLEKIRNHFNAPIIINSGYRTPNWNSKVNGASNSYHCKGMAADIVVKGHSSTEVAKYADSIMEQGGVIKYTNFTHIDVREEKYRKGV",
+                "_locus": "69d1a868-e557-4885-bdf4-18d204a36551",
+                "_cluster": "1b7301ae-72c1-48ed-b624-79566f6d9ff3",
+                "_start": 2942,
+                "_end": 3326,
+                "_strand": -1
+              },
+              {
+                "uid": "9862f70f-f2a2-490a-a6bd-df010a4d54bf",
+                "label": "phage_comp_7941_cycle_1_8",
+                "names": {
+                  "ID": "CIJGJSTV_CDS_0009",
+                  "transl_table": "11",
+                  "phrog": "No_PHROG",
+                  "locus_tag": "CIJGJSTV_CDS_0009",
+                  "function": "unknown function",
+                  "product": "hypothetical protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "phage_comp_7941_cycle_1_8"
+                },
+                "start": 3338,
+                "end": 3518,
+                "strand": -1,
+                "sequence": "ATGATGTACGAATACACCGAAAACAAAAAGGTAAAATGGTACAGATCGCCTATTGACAACAGTATCAGATTCCCCTATACTTACAACAAGAAGATGAAGTGCTGGGACAACCGGACCCGTCAGCTGTCAAGACAAAGAATTCACCAGCTGGAAAAAGAAAACAAAATAATGTGGATGTGA",
+                "translation": "MMYEYTENKKVKWYRSPIDNSIRFPYTYNKKMKCWDNRTRQLSRQRIHQLEKENKIMWM",
+                "_locus": "69d1a868-e557-4885-bdf4-18d204a36551",
+                "_cluster": "1b7301ae-72c1-48ed-b624-79566f6d9ff3",
+                "_start": 3338,
+                "_end": 3518,
+                "_strand": -1
+              },
+              {
+                "uid": "c0044ce6-8a3f-46c7-8d5d-030037a96bda",
+                "label": "phage_comp_7941_cycle_1_9",
+                "names": {
+                  "ID": "CIJGJSTV_CDS_0010",
+                  "transl_table": "11",
+                  "phrog": "No_PHROG",
+                  "locus_tag": "CIJGJSTV_CDS_0010",
+                  "function": "unknown function",
+                  "product": "hypothetical protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "phage_comp_7941_cycle_1_9"
+                },
+                "start": 3565,
+                "end": 3736,
+                "strand": 1,
+                "sequence": "TTGTCAAGCCCTCTGCAGAAATTTTTCATTAGATGGCCGCTGTTGCGCGCTACGCGGCGCAACTTCCAGCGAAGCGCGGCCGTGACTTTCCCGCTCGATTCCGGACTGCTTCTATTGACTTTTCAACATTTTCAACATAGTTTTCAACATTTCAACATTGTTAAACTTTAG",
+                "translation": "LSSPLQKFFIRWPLLRATRRNFQRSAAVTFPLDSGLLLLTFQHFQHSFQHFNIVKL",
+                "_locus": "69d1a868-e557-4885-bdf4-18d204a36551",
+                "_cluster": "1b7301ae-72c1-48ed-b624-79566f6d9ff3",
+                "_start": 3565,
+                "_end": 3736,
+                "_strand": 1
+              },
+              {
+                "uid": "4972a275-0aac-4357-af66-6a55968ac572",
+                "label": "phage_comp_7941_cycle_1_10",
+                "names": {
+                  "ID": "CIJGJSTV_CDS_0011",
+                  "transl_table": "11",
+                  "phrog": "No_PHROG",
+                  "locus_tag": "CIJGJSTV_CDS_0011",
+                  "function": "unknown function",
+                  "product": "hypothetical protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "phage_comp_7941_cycle_1_10"
+                },
+                "start": 3745,
+                "end": 3883,
+                "strand": 1,
+                "sequence": "GTGTTTCAACATTTCAACAAGTTTTCAACAAATCTTTCAACATTCTTTTTGGTGCTTTTTCTTCGTATCAACGTAAAGAAAAAGCACTTTTCAACTTTTCCACATATACTACTACTACGACTACAACAAGTTATATAA",
+                "translation": "VFQHFNKFSTNLSTFFLVLFLRINVKKKHFSTFPHILLLRLQQVI",
+                "_locus": "69d1a868-e557-4885-bdf4-18d204a36551",
+                "_cluster": "1b7301ae-72c1-48ed-b624-79566f6d9ff3",
+                "_start": 3745,
+                "_end": 3883,
+                "_strand": 1
+              },
+              {
+                "uid": "ae5f703b-3966-4a7f-af78-20e2be19c465",
+                "label": "phage_comp_7941_cycle_1_11",
+                "names": {
+                  "ID": "CIJGJSTV_CDS_0012",
+                  "transl_table": "11",
+                  "phrog": "No_PHROG",
+                  "locus_tag": "CIJGJSTV_CDS_0012",
+                  "function": "unknown function",
+                  "product": "hypothetical protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "phage_comp_7941_cycle_1_11"
+                },
+                "start": 3995,
+                "end": 4085,
+                "strand": -1,
+                "sequence": "GTGGTATTTTATAATTGGTGTCACCTAGCCCAGTACCTATCAAGTAAGGTACTGGGCTTTATTGATTTAAGCATGTGCTTAAGGTGTTAG",
+                "translation": "VVFYNWCHLAQYLSSKVLGFIDLSMCLRC",
+                "_locus": "69d1a868-e557-4885-bdf4-18d204a36551",
+                "_cluster": "1b7301ae-72c1-48ed-b624-79566f6d9ff3",
+                "_start": 3995,
+                "_end": 4085,
+                "_strand": -1
+              },
+              {
+                "uid": "8b162da8-7583-4091-86bc-14776ed93d43",
+                "label": "phage_comp_7941_cycle_1_12",
+                "names": {
+                  "ID": "CIJGJSTV_CDS_0013",
+                  "transl_table": "11",
+                  "phrog": "942",
+                  "locus_tag": "CIJGJSTV_CDS_0013",
+                  "function": "DNA, RNA and nucleotide metabolism",
+                  "product": "replication initiation protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "phage_comp_7941_cycle_1_12"
+                },
+                "start": 4071,
+                "end": 5091,
+                "strand": -1,
+                "sequence": "ATGAGTTGTTACAAGCCATTAATAAGGCTGTACAACCCGGATGATAGAGAACAGAGCGGACGGGTGTATTCACTCGCCCGCTTTTCTCAGTTAAGCGGGAAACAGCTAAAATATGAAGATTTGATGTATAATCCAAAAGTCATGTTAATTCCATGCGGGCAATGTATCGGATGCAGAATTAGACAACGAGAAGATTGGACAACACGCATAGAACTGGAAGCACGAGACTATCCAAAAGAAGAAGTCTGGTTTATCACGCTAACTTATGATGATGACCATGTACCGGGCATGATAGTAAAAACAGGTGAAATCATGCGAAAAGTACAGTACACATGGAAGCCGGGAGAGAAGCTCCCTAGCAGTGTTCAAATTTTGCTGTATGAAGATATTCAAAAGTTCTTAAAACGTCTCAGAAAGGCTTACAGGGGCAAATTACGCTATTTTGTGGCCGGTGAGTACGGAGAGCAGACAGCGAGACCACATTATCACATGATTCTATACGGCTGGAGACCAACAGACCTAGAAAATCTATACAAGATTCACCACAACGGATACTATACCAGTAAATGGTTAGCAGACCTATGGGGAATGGGTCAAATACAGATAGCGCAAGCGGTTCCAGAAACATATAGATATGTTGCAGGGTACGTAACAAAAAAAATGTACGAAATAGACGGCAAGAAAGCCAATGCATACTATGAACTAGGGCAAACAAAACCATTTGCTTGCATGAGCCTAAAGCCGGGTCTCGGAGATCAATACTACCAAGAACACAAAGCAGAAATCTGGCGGCAAGGATACATTCAATGCACCAACGGGAAAAAAGCACAGATTCCAAGATACTACGAAAAGCAGATGGAAGCGGAAAACCCACAAAGATTGTGGAGAATCAAAGAGAACCGACAGAAAAACGCGATGGAACAGAAGAGATTACAGTTAGAAGGCCAGGACTATAAAACCGTCCTAGAGACAAAAGAACGCGTCACCAAAAAACAAACGAAAAAGCGTGGTATTTTATAA",
+                "translation": "MSCYKPLIRLYNPDDREQSGRVYSLARFSQLSGKQLKYEDLMYNPKVMLIPCGQCIGCRIRQREDWTTRIELEARDYPKEEVWFITLTYDDDHVPGMIVKTGEIMRKVQYTWKPGEKLPSSVQILLYEDIQKFLKRLRKAYRGKLRYFVAGEYGEQTARPHYHMILYGWRPTDLENLYKIHHNGYYTSKWLADLWGMGQIQIAQAVPETYRYVAGYVTKKMYEIDGKKANAYYELGQTKPFACMSLKPGLGDQYYQEHKAEIWRQGYIQCTNGKKAQIPRYYEKQMEAENPQRLWRIKENRQKNAMEQKRLQLEGQDYKTVLETKERVTKKQTKKRGIL",
+                "_locus": "69d1a868-e557-4885-bdf4-18d204a36551",
+                "_cluster": "1b7301ae-72c1-48ed-b624-79566f6d9ff3",
+                "_start": 4071,
+                "_end": 5091,
+                "_strand": -1
+              },
+              {
+                "uid": "27d97886-7211-44b0-b7ab-c84c6f53c884",
+                "label": "phage_comp_7941_cycle_1_13",
+                "names": {
+                  "ID": "CIJGJSTV_CDS_0014",
+                  "transl_table": "11",
+                  "phrog": "8742",
+                  "locus_tag": "CIJGJSTV_CDS_0014",
+                  "function": "tail",
+                  "product": "pilot protein for DNA ejection",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "phage_comp_7941_cycle_1_13"
+                },
+                "start": 5087,
+                "end": 5969,
+                "strand": -1,
+                "sequence": "ATGGCAATTCCATGGGGAGCAATTATAAAAGGCGTTAACGTGCTTGGCAATGTTGCAACAAGCATAGGAGGCATAACAAACGCCGTAAAAAACGTTACAGGCAGTTTCGGCGGTTGGGGAAATGAAGGTTCAAGTCAAAGTAGCGGTGGAAGTACAAGCCAAGGCGGTGGAAGCTCCGAAAGCGGAAGTCAATCGGGAACAAACGACGAACAAATCGCAAAATATCTACAACAGGCATACGGATATCAAAGCGCAGAGGGCATAGCACAGCGAAGTTACAACCAGAAAAGTATGCTTCAACAGATGGGATACAACACAATGCAAGCCATCATGCAAGGCGTATACAACCACATCGAAAACACAACCGCAATGAATTACAACAGCGCTGAGGCACTAGCAAATCGACAGTTCCAAGAACGTATGAGCAACACATCATATCAAAGAGCGGTTGAGGACATGAAAAAGGCAGGCCTAAACCCAATTCTAGCATTTGCAAACGGTGGAGCAAGCACACCGGGAGGATCTGCAGGAACAATCAGCGGAGCAAGTATGGGACTGGCAAGCAGTAGCGCACTAGGAGTCAGCAGAAGCAGCGGATTTGTACCGAACTCATACAGTAGCACAAGTTGGAGTAAATCTGACTGGTATAACGCATCACAAAGCTGGAATCAAATGCTAAGCGAAACGCATCTAAGTCCTTACGGCTTAATGAAAGCACTAACAAATATCGATAACGAAACAAACAAAACAATTGGAGATATCACAAATAAAACAAATAAAACAAAGGGCAATAGCAAAGTAGGACACGAACCAGAAAACCCAATGCAGAATAAAACGGGAGACTACGGCGCAAAAAGAAAGCCAGGTGATTATCTAAAATGA",
+                "translation": "MAIPWGAIIKGVNVLGNVATSIGGITNAVKNVTGSFGGWGNEGSSQSSGGSTSQGGGSSESGSQSGTNDEQIAKYLQQAYGYQSAEGIAQRSYNQKSMLQQMGYNTMQAIMQGVYNHIENTTAMNYNSAEALANRQFQERMSNTSYQRAVEDMKKAGLNPILAFANGGASTPGGSAGTISGASMGLASSSALGVSRSSGFVPNSYSSTSWSKSDWYNASQSWNQMLSETHLSPYGLMKALTNIDNETNKTIGDITNKTNKTKGNSKVGHEPENPMQNKTGDYGAKRKPGDYLK",
+                "_locus": "69d1a868-e557-4885-bdf4-18d204a36551",
+                "_cluster": "1b7301ae-72c1-48ed-b624-79566f6d9ff3",
+                "_start": 5087,
+                "_end": 5969,
+                "_strand": -1
+              },
+              {
+                "uid": "d2ee99e2-627c-4aa5-9236-3452ba5f7cf5",
+                "label": "phage_comp_7941_cycle_1_14",
+                "names": {
+                  "ID": "CIJGJSTV_CDS_0015",
+                  "transl_table": "11",
+                  "phrog": "No_PHROG",
+                  "locus_tag": "CIJGJSTV_CDS_0015",
+                  "function": "unknown function",
+                  "product": "hypothetical protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "phage_comp_7941_cycle_1_14"
+                },
+                "start": 5941,
+                "end": 6061,
+                "strand": -1,
+                "sequence": "GCCTCTCTACAGCGTACCGGGGCTCGAGAAACTCTAAAAATTGTGCAAAATAACGAAAGGAGGAAGCCGGGACAAAACCCGGCTATTTTCAAATGGCAATTCCATGGGGAGCAATTATAA",
+                "translation": "ASLQRTGARETLKIVQNNERRKPGQNPAIFKWQFHGEQL",
+                "_locus": "69d1a868-e557-4885-bdf4-18d204a36551",
+                "_cluster": "1b7301ae-72c1-48ed-b624-79566f6d9ff3",
+                "_start": 5941,
+                "_end": 6061,
+                "_strand": -1
+              }
+            ],
+            "_start": 0,
+            "_end": 6062,
+            "_offset": 0,
+            "_cluster": "1b7301ae-72c1-48ed-b624-79566f6d9ff3",
+            "_flipped": false,
+            "_trimLeft": null,
+            "_trimRight": null
+          }
+        ],
+        "slot": 2
+      },
+      {
+        "uid": "60aed72a-90ba-4f2b-a3b0-b9de9fb74073",
+        "name": "Spiroplasma_Phage_4_phynteny",
+        "loci": [
+          {
+            "uid": "4b463a80-9fe2-4e47-b8cb-d7e4efce3131",
+            "name": "M17988.1",
+            "start": 0,
+            "end": 4421,
+            "genes": [
+              {
+                "uid": "db1d790c-b824-40ad-85e6-2d259f650bf8",
+                "label": "M17988.1_0",
+                "names": {
+                  "ID": "BNGHHTJW_CDS_0001",
+                  "transl_table": "11",
+                  "phrog": "No_PHROG",
+                  "locus_tag": "BNGHHTJW_CDS_0001",
+                  "function": "unknown function",
+                  "product": "hypothetical protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "M17988.1_0"
+                },
+                "start": 1,
+                "end": 94,
+                "strand": -1,
+                "sequence": "ATGATAAGTCAACTCACCAATAGTATGAAATCCTTTATCTCAAAAACGAGAAATCGTTTTACTAGTCCACTGTTGATAACCTTTTTGACTATC",
+                "translation": "MISQLTNSMKSFISKTRNRFTSPLLITFLTI",
+                "_locus": "4b463a80-9fe2-4e47-b8cb-d7e4efce3131",
+                "_cluster": "60aed72a-90ba-4f2b-a3b0-b9de9fb74073",
+                "_start": 1,
+                "_end": 94,
+                "_strand": -1
+              },
+              {
+                "uid": "49ec7aac-9bd4-4676-ae8d-1ed9c34006ac",
+                "label": "M17988.1_1",
+                "names": {
+                  "ID": "BNGHHTJW_CDS_0002",
+                  "transl_table": "11",
+                  "phrog": "942",
+                  "locus_tag": "BNGHHTJW_CDS_0002",
+                  "function": "DNA, RNA and nucleotide metabolism",
+                  "product": "replication initiation protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "M17988.1_1"
+                },
+                "start": 181,
+                "end": 505,
+                "strand": 1,
+                "sequence": "ATGTCAAAAGGAATTGGTTTAAAGTATTTTATGGAAAATAAAGAGCGTATATATAAGGAAGACAGTGTTTTAATTTCAACTGATAAAGGTATTAAAAGATTTAAAGTTCCTAAGTATTTTGACCGTCGTATGGAGCGTGAATGGCAGGATGAGTTTTATTTAGACTATATTAAAGAAAAACGAGAGAAAGTGGCTAAAAGGACGCTCTTTCAGCGTCAGATTGTTAGTTCAAGGAGTTATACAGATTATTTAGGTGATGAACAAAAAAAATTAAATAATATTGTAAAAAGGTTGACTCGACCTTTGAAAACTGGTAAAAAGTAG",
+                "translation": "MSKGIGLKYFMENKERIYKEDSVLISTDKGIKRFKVPKYFDRRMEREWQDEFYLDYIKEKREKVAKRTLFQRQIVSSRSYTDYLGDEQKKLNNIVKRLTRPLKTGKK",
+                "_locus": "4b463a80-9fe2-4e47-b8cb-d7e4efce3131",
+                "_cluster": "60aed72a-90ba-4f2b-a3b0-b9de9fb74073",
+                "_start": 181,
+                "_end": 505,
+                "_strand": 1
+              },
+              {
+                "uid": "86be8fa4-0263-42b2-ba75-4c5a8ee8ec29",
+                "label": "M17988.1_2",
+                "names": {
+                  "ID": "BNGHHTJW_CDS_0003",
+                  "transl_table": "11",
+                  "phrog": "No_PHROG",
+                  "locus_tag": "BNGHHTJW_CDS_0003",
+                  "function": "unknown function",
+                  "product": "hypothetical protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "M17988.1_2"
+                },
+                "start": 696,
+                "end": 795,
+                "strand": -1,
+                "sequence": "ATGATTAAATCATCTTCTACGTACTCTATGTTTTACAACACGACTCGTTTTAAAACCACGATAAGCCATATGATTATCTCCTTCCTATGTTTCACGTGA",
+                "translation": "MIKSSSTYSMFYNTTRFKTTISHMIISFLCFT",
+                "_locus": "4b463a80-9fe2-4e47-b8cb-d7e4efce3131",
+                "_cluster": "60aed72a-90ba-4f2b-a3b0-b9de9fb74073",
+                "_start": 696,
+                "_end": 795,
+                "_strand": -1
+              },
+              {
+                "uid": "182c230d-2762-4039-aa90-ea80ccf9b7fd",
+                "label": "M17988.1_3",
+                "names": {
+                  "ID": "BNGHHTJW_CDS_0004",
+                  "transl_table": "11",
+                  "phrog": "No_PHROG",
+                  "locus_tag": "BNGHHTJW_CDS_0004",
+                  "function": "unknown function",
+                  "product": "hypothetical protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "M17988.1_3"
+                },
+                "start": 931,
+                "end": 1039,
+                "strand": 1,
+                "sequence": "TTGGAGAAAGAGATTGAGCAAGGTTATCGGTGTGAAACTTGTAAGTTAGTTATTAAATCTGTTAATAAAGATGAAATAGTGTGTAAATGTATTAATGAGAAACGTTAA",
+                "translation": "LEKEIEQGYRCETCKLVIKSVNKDEIVCKCINEKR",
+                "_locus": "4b463a80-9fe2-4e47-b8cb-d7e4efce3131",
+                "_cluster": "60aed72a-90ba-4f2b-a3b0-b9de9fb74073",
+                "_start": 931,
+                "_end": 1039,
+                "_strand": 1
+              },
+              {
+                "uid": "c9080e11-a474-400e-8a3a-cfb8fd34ae46",
+                "label": "M17988.1_4",
+                "names": {
+                  "ID": "BNGHHTJW_CDS_0005",
+                  "transl_table": "11",
+                  "phrog": "No_PHROG",
+                  "locus_tag": "BNGHHTJW_CDS_0005",
+                  "function": "unknown function",
+                  "product": "hypothetical protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "M17988.1_4"
+                },
+                "start": 1025,
+                "end": 1187,
+                "strand": 1,
+                "sequence": "ATGAGAAACGTTAATAATAAATTTTTTGAGATTAAACAAAGAAAGGAAAATATTATGGATAAATTAATAAGTTTAAAAGATGTTATGCGATTTATATTTAAATTTGGTTTACCTGGTTTGTGTATAGCAGTTGGTTTAATTGTTATGGTTGCAAATAAGTGA",
+                "translation": "MRNVNNKFFEIKQRKENIMDKLISLKDVMRFIFKFGLPGLCIAVGLIVMVANK",
+                "_locus": "4b463a80-9fe2-4e47-b8cb-d7e4efce3131",
+                "_cluster": "60aed72a-90ba-4f2b-a3b0-b9de9fb74073",
+                "_start": 1025,
+                "_end": 1187,
+                "_strand": 1
+              },
+              {
+                "uid": "ca0a1fff-d729-40a5-a528-99f3f4072656",
+                "label": "M17988.1_5",
+                "names": {
+                  "ID": "BNGHHTJW_CDS_0006",
+                  "transl_table": "11",
+                  "phrog": "94450",
+                  "locus_tag": "BNGHHTJW_CDS_0006",
+                  "function": "unknown function",
+                  "product": "hypothetical protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "M17988.1_5"
+                },
+                "start": 1305,
+                "end": 1689,
+                "strand": 1,
+                "sequence": "ATGAAAATATATACTCAAAGAAATAATAAAGTAGAGTTTTCAGATTCAGGTAGTTCTGAGTATTCTGAGTATCAACGTGTTATTGATGCTGATACTAAAGAGAATACTTATGAAATTGTGGCAACTTATAATCGTTATGATGAGATACAAGAAGCCGGAGAAGGTACTGATTTGCGTTCAATGCTTGATAAGTATGGTGATGATTATTTAGAGTTGTTGCCACCTGCTAGATTAGGTGGAGATGATACTATTTTGCCGAAATCTGTTTTGGAGTTAGAAAATATTAGATTACAAAATACAGAGTATTTATCGTTATTGGAAAATATTAATTCTAAACTTGATAAGCAAGGTTTAGGTGATTTAGATAATTTTATTAAAAATTGA",
+                "translation": "MKIYTQRNNKVEFSDSGSSEYSEYQRVIDADTKENTYEIVATYNRYDEIQEAGEGTDLRSMLDKYGDDYLELLPPARLGGDDTILPKSVLELENIRLQNTEYLSLLENINSKLDKQGLGDLDNFIKN",
+                "_locus": "4b463a80-9fe2-4e47-b8cb-d7e4efce3131",
+                "_cluster": "60aed72a-90ba-4f2b-a3b0-b9de9fb74073",
+                "_start": 1305,
+                "_end": 1689,
+                "_strand": 1
+              },
+              {
+                "uid": "f81ebe75-49fd-453c-afeb-9feca9634835",
+                "label": "M17988.1_6",
+                "names": {
+                  "ID": "BNGHHTJW_CDS_0007",
+                  "transl_table": "11",
+                  "phrog": "514",
+                  "locus_tag": "BNGHHTJW_CDS_0007",
+                  "function": "head and packaging",
+                  "product": "major head protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "M17988.1_6"
+                },
+                "start": 1735,
+                "end": 2002,
+                "strand": 1,
+                "sequence": "ATGAAAAAGAAAATGAGTAAATTGAATGCTAGAGTACACGATTTTTCAATGTTTAAAGGAAATCATATTCCGCGTTCAAAAATACATATTCCTCATAAAACAATTAGAGCGTTTAATGTTGGTGAGATAATTCCAATTTATCAGACGCCTGTTTATCCTGGTGAACATATTAAAATGGATTTGACTAGTTTATATCGTCCTAGTACTTTTATTGTACCTCCTATGGATGATTTAATCGTAGATACATATGCGTTTGCTGTTCCTTGA",
+                "translation": "MKKKMSKLNARVHDFSMFKGNHIPRSKIHIPHKTIRAFNVGEIIPIYQTPVYPGEHIKMDLTSLYRPSTFIVPPMDDLIVDTYAFAVP",
+                "_locus": "4b463a80-9fe2-4e47-b8cb-d7e4efce3131",
+                "_cluster": "60aed72a-90ba-4f2b-a3b0-b9de9fb74073",
+                "_start": 1735,
+                "_end": 2002,
+                "_strand": 1
+              },
+              {
+                "uid": "3a007ed2-a83d-4c81-8952-3d72d3914f16",
+                "label": "M17988.1_7",
+                "names": {
+                  "ID": "BNGHHTJW_CDS_0008",
+                  "transl_table": "11",
+                  "phrog": "No_PHROG",
+                  "locus_tag": "BNGHHTJW_CDS_0008",
+                  "function": "unknown function",
+                  "product": "hypothetical protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "M17988.1_7"
+                },
+                "start": 2033,
+                "end": 2180,
+                "strand": 1,
+                "sequence": "TTGGTGAAAATTCTGATAGTTGAGATGTTAAGAATGCTCCTCCTGTACCTGATATTGTTGCACCTTCAGGTGGTTGAGATTATGGTACTTTGGCTGACCATTTTGGAATTACTCCTAAGGTTCCTGGAATTAGGGTTAAATCTTTAA",
+                "translation": "LVKILIVEMLRMLLLYLILLHLQVVEIMVLWLTILELLLRFLELGLNL",
+                "_locus": "4b463a80-9fe2-4e47-b8cb-d7e4efce3131",
+                "_cluster": "60aed72a-90ba-4f2b-a3b0-b9de9fb74073",
+                "_start": 2033,
+                "_end": 2180,
+                "_strand": 1
+              },
+              {
+                "uid": "bc6a043a-20a7-455c-8d08-4aff484dfe8e",
+                "label": "M17988.1_8",
+                "names": {
+                  "ID": "BNGHHTJW_CDS_0009",
+                  "transl_table": "11",
+                  "phrog": "514",
+                  "locus_tag": "BNGHHTJW_CDS_0009",
+                  "function": "head and packaging",
+                  "product": "major head protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "M17988.1_8"
+                },
+                "start": 2248,
+                "end": 2605,
+                "strand": 1,
+                "sequence": "TTGACTTTGGATAGTTCTAATTCACAAGGAAGTAATGGTAGTAATCAAGTTACTGATATTCAATTAGGTGGAAAGCCTTATATTGCTAATAAATACCACGATTATTTTACTAGTTGCTTACCTGCTCCACAAAAAGGTGCTCCTACTACTCTAAATGTAGGTGGTATGGCACCTGTTACTACTAAATTTAGGGATGTTCCTAATTTGAGTGGTACTCCTTTGATTTTTAGAGATAATAAAGGTAGAACTATAAAAACTGGTCAATTAGGTATTGGACCTGTTGATGCTGGATTTTTAGTAGCACAAAATACAGCGCAGGCTGCTAATGGAGAGCGTGCTATTCCTTCAAATCTTTGA",
+                "translation": "LTLDSSNSQGSNGSNQVTDIQLGGKPYIANKYHDYFTSCLPAPQKGAPTTLNVGGMAPVTTKFRDVPNLSGTPLIFRDNKGRTIKTGQLGIGPVDAGFLVAQNTAQAANGERAIPSNL",
+                "_locus": "4b463a80-9fe2-4e47-b8cb-d7e4efce3131",
+                "_cluster": "60aed72a-90ba-4f2b-a3b0-b9de9fb74073",
+                "_start": 2248,
+                "_end": 2605,
+                "_strand": 1
+              },
+              {
+                "uid": "6983d314-8e92-46e0-a1c1-d6289b608f5f",
+                "label": "M17988.1_9",
+                "names": {
+                  "ID": "BNGHHTJW_CDS_0010",
+                  "transl_table": "11",
+                  "phrog": "514",
+                  "locus_tag": "BNGHHTJW_CDS_0010",
+                  "function": "head and packaging",
+                  "product": "major head protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "M17988.1_9"
+                },
+                "start": 2680,
+                "end": 2992,
+                "strand": 1,
+                "sequence": "ATGGATGCTCGTGGTGGTACTCGTTATGTTGAATTTACGTTAAATCATTTTGGTGTACATACGGCAGATGCTCGTTTACAACGTAGTGAATTTCTTGGTGGACATAGTCAGTCATTGTTAGTACAGTCTGTTCCACAAACATCATCTACTGTTGAAAAAATGACTCCACAAGGTAATTTGGCAGCGTTTTCTGAAACAATGATACAGAATAATTATTTAGTTAATAAGACTTTTACAGAACATAGTTATATTATTGTTTTGGCAGTTGTTCGTTATAAACATACTTATCAACAAGGAATAGAAGCAGATTGA",
+                "translation": "MDARGGTRYVEFTLNHFGVHTADARLQRSEFLGGHSQSLLVQSVPQTSSTVEKMTPQGNLAAFSETMIQNNYLVNKTFTEHSYIIVLAVVRYKHTYQQGIEAD",
+                "_locus": "4b463a80-9fe2-4e47-b8cb-d7e4efce3131",
+                "_cluster": "60aed72a-90ba-4f2b-a3b0-b9de9fb74073",
+                "_start": 2680,
+                "_end": 2992,
+                "_strand": 1
+              },
+              {
+                "uid": "b361e632-e545-4660-bf4c-8ee61d66da10",
+                "label": "M17988.1_10",
+                "names": {
+                  "ID": "BNGHHTJW_CDS_0011",
+                  "transl_table": "11",
+                  "phrog": "514",
+                  "locus_tag": "BNGHHTJW_CDS_0011",
+                  "function": "head and packaging",
+                  "product": "major head protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "M17988.1_10"
+                },
+                "start": 3016,
+                "end": 3127,
+                "strand": 1,
+                "sequence": "ATGTATGATCCTTTGTTAGCGAATATTAGTGAGCAGCCTGTTAAAAACCGTGAGATTATGGTACAAGGTAATTCACAAGATAATGAGATTTTTGGATTCCAAGAAGCGTGA",
+                "translation": "MYDPLLANISEQPVKNREIMVQGNSQDNEIFGFQEA",
+                "_locus": "4b463a80-9fe2-4e47-b8cb-d7e4efce3131",
+                "_cluster": "60aed72a-90ba-4f2b-a3b0-b9de9fb74073",
+                "_start": 3016,
+                "_end": 3127,
+                "_strand": 1
+              },
+              {
+                "uid": "b0b721fd-d95f-41c1-91a2-7cdd3bbf4673",
+                "label": "M17988.1_11",
+                "names": {
+                  "ID": "BNGHHTJW_CDS_0012",
+                  "transl_table": "11",
+                  "phrog": "No_PHROG",
+                  "locus_tag": "BNGHHTJW_CDS_0012",
+                  "function": "unknown function",
+                  "product": "hypothetical protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "M17988.1_11"
+                },
+                "start": 3098,
+                "end": 3194,
+                "strand": 1,
+                "sequence": "ATGAGATTTTTGGATTCCAAGAAGCGTGAGCAGATTTGCGATTTAAACCTAATTCTGTCGCTGGTGTTATGCGTTCATCACATCCGCAAAGTTTAG",
+                "translation": "MRFLDSKKREQICDLNLILSLVLCVHHIRKV",
+                "_locus": "4b463a80-9fe2-4e47-b8cb-d7e4efce3131",
+                "_cluster": "60aed72a-90ba-4f2b-a3b0-b9de9fb74073",
+                "_start": 3098,
+                "_end": 3194,
+                "_strand": 1
+              },
+              {
+                "uid": "d65df80c-8442-46f3-a83e-126bca87ce01",
+                "label": "M17988.1_12",
+                "names": {
+                  "ID": "BNGHHTJW_CDS_0013",
+                  "transl_table": "11",
+                  "phrog": "No_PHROG",
+                  "locus_tag": "BNGHHTJW_CDS_0013",
+                  "function": "unknown function",
+                  "product": "hypothetical protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "M17988.1_12"
+                },
+                "start": 3299,
+                "end": 3446,
+                "strand": 1,
+                "sequence": "GTGATAATACACCACAATTACGTGTTGACTTTATGTTTAATACCATTGCTGAGAAACCTATGCCTTTATATTCAACTCCTGGATTACGTCGTATATAATATGGATTGTTGTTTTATTTGTAATCGCTTGACAGATACTACATTTTGA",
+                "translation": "VIIHHNYVLTLCLIPLLRNLCLYIQLLDYVVYNMDCCFICNRLTDTTF",
+                "_locus": "4b463a80-9fe2-4e47-b8cb-d7e4efce3131",
+                "_cluster": "60aed72a-90ba-4f2b-a3b0-b9de9fb74073",
+                "_start": 3299,
+                "_end": 3446,
+                "_strand": 1
+              },
+              {
+                "uid": "0a6bda49-c6c2-4917-87d8-8b72c739df4b",
+                "label": "M17988.1_13",
+                "names": {
+                  "ID": "BNGHHTJW_CDS_0014",
+                  "transl_table": "11",
+                  "phrog": "No_PHROG",
+                  "locus_tag": "BNGHHTJW_CDS_0014",
+                  "function": "unknown function",
+                  "product": "hypothetical protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "M17988.1_13"
+                },
+                "start": 3607,
+                "end": 3703,
+                "strand": 1,
+                "sequence": "GTGATAAATGAAATCGTGATTTTCAAGAGCGTATGTCTAATACTCAATATCAACGTGCTCGTAAAGATATGGAAGCGGCAGGTATTAATCCGTTAG",
+                "translation": "VINEIVIFKSVCLILNINVLVKIWKRQVLIR",
+                "_locus": "4b463a80-9fe2-4e47-b8cb-d7e4efce3131",
+                "_cluster": "60aed72a-90ba-4f2b-a3b0-b9de9fb74073",
+                "_start": 3607,
+                "_end": 3703,
+                "_strand": 1
+              },
+              {
+                "uid": "a30fb800-2919-4ec5-97fd-552b3527b9bb",
+                "label": "M17988.1_14",
+                "names": {
+                  "ID": "BNGHHTJW_CDS_0015",
+                  "transl_table": "11",
+                  "phrog": "No_PHROG",
+                  "locus_tag": "BNGHHTJW_CDS_0015",
+                  "function": "unknown function",
+                  "product": "hypothetical protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "M17988.1_14"
+                },
+                "start": 3675,
+                "end": 3936,
+                "strand": 1,
+                "sequence": "ATGGAAGCGGCAGGTATTAATCCGTTAGCACAGTTTGGTAGTGGTCAAGCATCTTCACCTTCAGGTGGAGTTTCAGGTAGTAGTTTTGGTAGTAATATAACATCAATGTTAGGCAGTTCTGCAAATATGCTTATGCAACTTTCTAAATTAAAGGAAGATGCTGAACGTGCTAATTTTGGATCTAAAACTGTTCAGACTATTAATGATGCTCGTAATAATATGGTGCGTAGTGTAATAACATTGTCAAAAAGGGTTAAATAA",
+                "translation": "MEAAGINPLAQFGSGQASSPSGGVSGSSFGSNITSMLGSSANMLMQLSKLKEDAERANFGSKTVQTINDARNNMVRSVITLSKRVK",
+                "_locus": "4b463a80-9fe2-4e47-b8cb-d7e4efce3131",
+                "_cluster": "60aed72a-90ba-4f2b-a3b0-b9de9fb74073",
+                "_start": 3675,
+                "_end": 3936,
+                "_strand": 1
+              },
+              {
+                "uid": "b1cb0d3f-f7ce-41d6-9456-e9c40003d8c5",
+                "label": "M17988.1_15",
+                "names": {
+                  "ID": "BNGHHTJW_CDS_0016",
+                  "transl_table": "11",
+                  "phrog": "942",
+                  "locus_tag": "BNGHHTJW_CDS_0016",
+                  "function": "DNA, RNA and nucleotide metabolism",
+                  "product": "replication initiation protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "M17988.1_15"
+                },
+                "start": 3963,
+                "end": 4140,
+                "strand": 1,
+                "sequence": "ATGGCTTGTCTTAGACCTTTACAGGTACATAATTTAAAAAAAGGAGAAAAAGTTAATTTTAAGCATTATTCTAATGGAGATGTTGCACGATATGATATGAATAAAAATTATATTGTTAATGATAGTGTGCCTTGTCGTAAGTGTGTTGGTTGTCGTTTGGATAATTCTGCTGAGTGA",
+                "translation": "MACLRPLQVHNLKKGEKVNFKHYSNGDVARYDMNKNYIVNDSVPCRKCVGCRLDNSAE",
+                "_locus": "4b463a80-9fe2-4e47-b8cb-d7e4efce3131",
+                "_cluster": "60aed72a-90ba-4f2b-a3b0-b9de9fb74073",
+                "_start": 3963,
+                "_end": 4140,
+                "_strand": 1
+              },
+              {
+                "uid": "3c38479f-e097-424e-b8d1-a549f86c210a",
+                "label": "M17988.1_16",
+                "names": {
+                  "ID": "BNGHHTJW_CDS_0017",
+                  "transl_table": "11",
+                  "phrog": "942",
+                  "locus_tag": "BNGHHTJW_CDS_0017",
+                  "function": "DNA, RNA and nucleotide metabolism",
+                  "product": "replication initiation protein",
+                  "inference": "ab initio prediction:PHANOTATE:1.6.7",
+                  "protein_id": "M17988.1_16"
+                },
+                "start": 4251,
+                "end": 4419,
+                "strand": 1,
+                "sequence": "GTGCCTGAACATATTACAAAATTTATTAAATCGTTACGAAAATATTTTGAAAGAAGAGGACATATTGGAATTAAATATCTTGCTAGTAATGAATATGGAACAAAAAGAATGCGTCCTCATTATCATATTTGTTTTTTTAACTTACCTTTGGATGATTTAGAAAAAACT",
+                "translation": "VPEHITKFIKSLRKYFERRGHIGIKYLASNEYGTKRMRPHYHICFFNLPLDDLEKT",
+                "_locus": "4b463a80-9fe2-4e47-b8cb-d7e4efce3131",
+                "_cluster": "60aed72a-90ba-4f2b-a3b0-b9de9fb74073",
+                "_start": 4251,
+                "_end": 4419,
+                "_strand": 1
+              }
+            ],
+            "_start": 0,
+            "_end": 4421,
+            "_offset": 0,
+            "_cluster": "60aed72a-90ba-4f2b-a3b0-b9de9fb74073",
+            "_flipped": false,
+            "_trimLeft": null,
+            "_trimRight": null
+          }
+        ],
+        "slot": 3
+      }
+    ],
+    "links": [
+      {
+        "uid": "4060087a-7c66-4d5a-8c39-d485062a432c",
+        "query": {
+          "uid": "d2654d96-4568-4f4d-a92a-6cdae32d0d79",
+          "label": "phage_comp_7941_cycle_1_1",
+          "names": {
+            "ID": "CIJGJSTV_CDS_0002",
+            "transl_table": "11",
+            "phrog": "514",
+            "locus_tag": "CIJGJSTV_CDS_0002",
+            "function": "head and packaging",
+            "product": "major head protein",
+            "inference": "ab initio prediction:PHANOTATE:1.6.7",
+            "protein_id": "phage_comp_7941_cycle_1_1"
+          },
+          "start": 182,
+          "end": 1685,
+          "strand": -1,
+          "sequence": "ATGACCACACCGAAATATCCGGTTTTCGATGATGCATTCATCGACTTCTACTACTTCTTCTGTCCTAACAGAATCCTGTGGGACAACTTCAAGCGTTTCATGGGAGAAGCAGACGACGCACCGTGGATGCCGACAAAGACATACGAAGTGCCAAAAATCAAAATCGCATCAAACACGGAAACAACCGGAAGAGAAAACCTGAAAGGACCAAAAGAAGGAAGCATTCTGGATTACATGGGAGTGCCGACAAAAATCAACGAAAAAGAAGGAAGCGAAACAACGCTCATAAACGCACTGCCAATCAGAGCATATGTGAAAATCTGGAACGAATTCTTCAGAGACCAAAACGTGGGAAATCCAGCGGCGTATTTTACAGACGAAACATTAATTCAGTATACGGACAAAAACGATGATAATGACGAAGAAGGAATTCTGAGAGATGCAGTGACTGGTGCACGATGCCTTCCGGTGAGCCGCTTCCATGATTACTTCTCATCCTGTCTGCCGTATCCTCAGCGAGGGCCGGAAGTGACAATCGCACTGACCGGAAACGCACCTGTAAAAATGTTCGACAATAAAGGCATCAACGGAGCGACAAACCCAACCCAAATCTGGATGAGCGGAAATGCAGCGTATCTAGCACAGAACAGTGCAAATGAAACAATCGTAGCACTAGGCTCAACAGAACAGACAGGCGGAGACTCTATCGCAAGATACATTGCAACAGACCTCAGCAACATCGAAGCCGCAACAATCAACCAGCTCCGACAGGCTTTTGCAGTTCAGCACTACTACGAAGCACTGGCGCGGGGCGGCAGTCGATACCGTGAACAGGTAAGAGCGCTGTTCGGCGTAAGCATCAGTGACAAAACAGTACAGGTGCCTGAGTATCTGGGTGGTGGGCGATATCACGTTAATATCAACCAGATCGTACAGACTTCTGGCCAGCAAACCGAAAACGACACGCCTATTGGTGAAACAGGCGCAATGTCCGTCACACCTATCAACGAAAGCAGTTTCACAAAAAGCTTTGAGGAACACGGCTTTGTAATTGGTGTCATGTGTGTACGTCACAATCACAGCTATCAGCAAGGCCTTGAAAGGTTCTGGAGCCGCTCAGACAGACTGGACTACTATTTCCCGCAGTTCGCAAATCTGGGCGAACAGCCTGTCAAAAAGAAAGAAATCATGCTGACCGGCACAAGCACAGACGACGAGACTTTCGGATATCAGGAAGCTTGGGCAGACTATCGCATGAAACCGGACAGAGTGAGCGGTAAAATGCGCAGTAACGCAGAAGGAACGCTGGACTTCTGGCACTATGCAGACAACTACCAAACCGTGCCGACACTCAGTCAAGAGTGGATGAACGAGAGCAAAACAGAAATCGCGAGAACATTGATCGTACAAAACGAACCGCAATTTTTTGGTGCAATCAGAGTAATGAACAATACAACGAGATGCATGCCTCTCTACAGCGTACCGGGGCTCGAGAAACTCTAA",
+          "translation": "MTTPKYPVFDDAFIDFYYFFCPNRILWDNFKRFMGEADDAPWMPTKTYEVPKIKIASNTETTGRENLKGPKEGSILDYMGVPTKINEKEGSETTLINALPIRAYVKIWNEFFRDQNVGNPAAYFTDETLIQYTDKNDDNDEEGILRDAVTGARCLPVSRFHDYFSSCLPYPQRGPEVTIALTGNAPVKMFDNKGINGATNPTQIWMSGNAAYLAQNSANETIVALGSTEQTGGDSIARYIATDLSNIEAATINQLRQAFAVQHYYEALARGGSRYREQVRALFGVSISDKTVQVPEYLGGGRYHVNINQIVQTSGQQTENDTPIGETGAMSVTPINESSFTKSFEEHGFVIGVMCVRHNHSYQQGLERFWSRSDRLDYYFPQFANLGEQPVKKKEIMLTGTSTDDETFGYQEAWADYRMKPDRVSGKMRSNAEGTLDFWHYADNYQTVPTLSQEWMNESKTEIARTLIVQNEPQFFGAIRVMNNTTRCMPLYSVPGLEKL"
+        },
+        "target": {
+          "uid": "5c8b85ac-593f-43de-96dd-6586f322dd17",
+          "label": "MT185428.1_4",
+          "names": {
+            "ID": "COUNRLRN_CDS_0005",
+            "transl_table": "11",
+            "phrog": "514",
+            "locus_tag": "COUNRLRN_CDS_0005",
+            "function": "head and packaging",
+            "product": "major head protein",
+            "inference": "ab initio prediction:PHANOTATE:1.6.7",
+            "protein_id": "MT185428.1_4"
+          },
+          "start": 1817,
+          "end": 3518,
+          "strand": 1,
+          "sequence": "ATGAGTAAATTCGGTCGTAAAGTACCTAGTAATGCAAAAAGTCAGCATAATTTTTCAGTAATCCCGAGTGCCAATATTCAGCGTTCGGTCTTTAACCGCAGCTCTGGTTATAAAACCACTTTTGACGCTGGTTATTTGATTCCCGTGTTTCTGGATGAGGCTTTGCCGGGTGATACGTTCCACCTGAAAACGTCCGTACTGGCGCGTTTATCCACGCCAGTGGTGCCGTTTATGGATAACCTGCGACTGGACATCCAGTATTTTTCCGTGCCCTACCGTCTGGTCTGGGATAACTGGCAGAAGTTCAACGGTGAGCAGAAGAATCCAGGCGATTCGACGGATTACCTTATCCCGCAGATTAAAGCCCCTGCAGGCGGCTTCCCTGTAGGCTCCCTTGCCGATTATTTTGGTGTTCCCACAGGTGTGGAGAATATCAGTGTAAGCGCTCTGCCGTTCCGCGCTTATAACCTGATTTATAACGAGTGGTATCGTGATGAAAACCTGATTAATTCCGCCCCGCTTCCGCTTGGCGATGAGGAAGAAACAGGCCTCGCCAATTTCCCGCTGCGTAAGCGTGCCAAGCGTCACGATTACTTCACAAGTGCCCTGCCGTGGCCTCAGAAAGGTGAAGGCGTTGAGATTGGTTTAGGCGTTCCGCCGTCGTATACGCTGGAGTACCCTTATTACAAGGAAGGTATGGGATTTATTTCGTCTAACTATGGTGCGTCTGGAAATATTGGTCGTACTTTTCCGACGTATATTGCTCGTAGTAGTGTTGGTGATGATTCTTCATCTAACATTGGTAATGCTGCTTATTTTTCCGAAGGCCTGGAGAATGGTATTAATTTTCCGAATGCTCCGGCTCGTGGTCGCTATGATGTGCTTGGTGGTTTTGACCCCAATACACCTCCGGTTACGTTGAAGAAAGAAGGTGGTGAAGTTGTTGATAACCTCACGATTAACTCGCTGCGTCAGGCGTTCCAGCTTCAGCGGCTGCTTGAGCGTGATGCTCGCGGTGGTACGCGATACATTGAGATTATTCGCAGTCATTTTGGCGTCATTTCTCCTGATGCCCGTGTTCAGCGTCCTGAGTATCTTGGCTCTGGTTCGTTCGATATAAATATTAATCCCGTTCTTCAAAACTCCGCGACTACCGACGCCAGTCCGCAAGGTAACCTTGCCGCTTATGGCGTTTCAGGAGGTGTTAACCGTGGTTTTTCTCACTCTTTTGTTGAGCATTGCTTTGTTATTGGCCTTGTCTCCGTTCGAGCAGATTTGACCTACCAGCAAGGCATTCCGCGCATGTTCTCCCGTCAGACCCGCTTTGATTTCTACTGGCCTGCACTGGCCCACCTGGGCGAACAGGCTATTCTTAACAAAGAGATTTATGCGCAAGGTAACGCCAAGGATGATGAAGTCTTTGGCTACCAGGAACGTTATGCGGAGTACCGCTACCGACCGTCCCAGATTACTGGTAAATTGCGTTCTACCGACCCGCAATCCCTCGACGTGTGGCATTTAGCCCAGCGGTTCGACTCTCTGCCCGCACTGAATCAGGAGTTTATCGAGGAGAATCCACCGATGAAGCGCGTTCTCGCCGTACAGGACGAACCCCAGTTCATCATGGATGCGTTCTTTGACCTGAAGTGTGTGCGGCCTATGCCTGTTTACTCAGTACCAGGTCTTATTGACCATTTCTAA",
+          "translation": "MSKFGRKVPSNAKSQHNFSVIPSANIQRSVFNRSSGYKTTFDAGYLIPVFLDEALPGDTFHLKTSVLARLSTPVVPFMDNLRLDIQYFSVPYRLVWDNWQKFNGEQKNPGDSTDYLIPQIKAPAGGFPVGSLADYFGVPTGVENISVSALPFRAYNLIYNEWYRDENLINSAPLPLGDEEETGLANFPLRKRAKRHDYFTSALPWPQKGEGVEIGLGVPPSYTLEYPYYKEGMGFISSNYGASGNIGRTFPTYIARSSVGDDSSSNIGNAAYFSEGLENGINFPNAPARGRYDVLGGFDPNTPPVTLKKEGGEVVDNLTINSLRQAFQLQRLLERDARGGTRYIEIIRSHFGVISPDARVQRPEYLGSGSFDININPVLQNSATTDASPQGNLAAYGVSGGVNRGFSHSFVEHCFVIGLVSVRADLTYQQGIPRMFSRQTRFDFYWPALAHLGEQAILNKEIYAQGNAKDDEVFGYQERYAEYRYRPSQITGKLRSTDPQSLDVWHLAQRFDSLPALNQEFIEENPPMKRVLAVQDEPQFIMDAFFDLKCVRPMPVYSVPGLIDHF"
+        },
+        "identity": 0.3300653594771242,
+        "similarity": 0.46568627450980393
+      },
+      {
+        "uid": "618ff472-6da3-4da9-ad21-22974e197714",
+        "query": {
+          "uid": "eb0a8926-2a2b-4151-8ad1-cebe7ad9411f",
+          "label": "phage_comp_7941_cycle_1_4",
+          "names": {
+            "ID": "CIJGJSTV_CDS_0005",
+            "transl_table": "11",
+            "phrog": "10695",
+            "locus_tag": "CIJGJSTV_CDS_0005",
+            "function": "unknown function",
+            "product": "hypothetical protein",
+            "inference": "ab initio prediction:PHANOTATE:1.6.7",
+            "protein_id": "phage_comp_7941_cycle_1_4"
+          },
+          "start": 2499,
+          "end": 2619,
+          "strand": -1,
+          "sequence": "ATGAAGCATAGGCAGAAAATGCCGGTACGCACTGACAAGCGCATGTTCAACGTAACGGCACGCAAAACGAAAACCATCAACCTCAGCCAGAAACCCATGCGGGGTGGCATCAGACTGTAA",
+          "translation": "MKHRQKMPVRTDKRMFNVTARKTKTINLSQKPMRGGIRL"
+        },
+        "target": {
+          "uid": "9574f461-a1d8-4ad2-833a-9d229221191f",
+          "label": "MT185428.1_6",
+          "names": {
+            "ID": "COUNRLRN_CDS_0007",
+            "transl_table": "11",
+            "phrog": "10695",
+            "locus_tag": "COUNRLRN_CDS_0007",
+            "function": "unknown function",
+            "product": "hypothetical protein",
+            "inference": "ab initio prediction:PHANOTATE:1.6.7",
+            "protein_id": "MT185428.1_6"
+          },
+          "start": 4354,
+          "end": 4474,
+          "strand": 1,
+          "sequence": "ATGGCTCGTTCTCGCCGTCGTATGTCTAAGCGTTCTTCCCGTCGTTCGTTCCGTAAGTACGCAAAGACGCATAAACGTAACTTTAAAGCCCGCTCCATGCGTGGCGGCATTCGTCTTTGA",
+          "translation": "MARSRRRMSKRSSRRSFRKYAKTHKRNFKARSMRGGIRL"
+        },
+        "identity": 0.425,
+        "similarity": 0.575
+      },
+      {
+        "uid": "78a259df-9857-42e2-9215-a68e5e8ad105",
+        "query": {
+          "uid": "8b162da8-7583-4091-86bc-14776ed93d43",
+          "label": "phage_comp_7941_cycle_1_12",
+          "names": {
+            "ID": "CIJGJSTV_CDS_0013",
+            "transl_table": "11",
+            "phrog": "942",
+            "locus_tag": "CIJGJSTV_CDS_0013",
+            "function": "DNA, RNA and nucleotide metabolism",
+            "product": "replication initiation protein",
+            "inference": "ab initio prediction:PHANOTATE:1.6.7",
+            "protein_id": "phage_comp_7941_cycle_1_12"
+          },
+          "start": 4071,
+          "end": 5091,
+          "strand": -1,
+          "sequence": "ATGAGTTGTTACAAGCCATTAATAAGGCTGTACAACCCGGATGATAGAGAACAGAGCGGACGGGTGTATTCACTCGCCCGCTTTTCTCAGTTAAGCGGGAAACAGCTAAAATATGAAGATTTGATGTATAATCCAAAAGTCATGTTAATTCCATGCGGGCAATGTATCGGATGCAGAATTAGACAACGAGAAGATTGGACAACACGCATAGAACTGGAAGCACGAGACTATCCAAAAGAAGAAGTCTGGTTTATCACGCTAACTTATGATGATGACCATGTACCGGGCATGATAGTAAAAACAGGTGAAATCATGCGAAAAGTACAGTACACATGGAAGCCGGGAGAGAAGCTCCCTAGCAGTGTTCAAATTTTGCTGTATGAAGATATTCAAAAGTTCTTAAAACGTCTCAGAAAGGCTTACAGGGGCAAATTACGCTATTTTGTGGCCGGTGAGTACGGAGAGCAGACAGCGAGACCACATTATCACATGATTCTATACGGCTGGAGACCAACAGACCTAGAAAATCTATACAAGATTCACCACAACGGATACTATACCAGTAAATGGTTAGCAGACCTATGGGGAATGGGTCAAATACAGATAGCGCAAGCGGTTCCAGAAACATATAGATATGTTGCAGGGTACGTAACAAAAAAAATGTACGAAATAGACGGCAAGAAAGCCAATGCATACTATGAACTAGGGCAAACAAAACCATTTGCTTGCATGAGCCTAAAGCCGGGTCTCGGAGATCAATACTACCAAGAACACAAAGCAGAAATCTGGCGGCAAGGATACATTCAATGCACCAACGGGAAAAAAGCACAGATTCCAAGATACTACGAAAAGCAGATGGAAGCGGAAAACCCACAAAGATTGTGGAGAATCAAAGAGAACCGACAGAAAAACGCGATGGAACAGAAGAGATTACAGTTAGAAGGCCAGGACTATAAAACCGTCCTAGAGACAAAAGAACGCGTCACCAAAAAACAAACGAAAAAGCGTGGTATTTTATAA",
+          "translation": "MSCYKPLIRLYNPDDREQSGRVYSLARFSQLSGKQLKYEDLMYNPKVMLIPCGQCIGCRIRQREDWTTRIELEARDYPKEEVWFITLTYDDDHVPGMIVKTGEIMRKVQYTWKPGEKLPSSVQILLYEDIQKFLKRLRKAYRGKLRYFVAGEYGEQTARPHYHMILYGWRPTDLENLYKIHHNGYYTSKWLADLWGMGQIQIAQAVPETYRYVAGYVTKKMYEIDGKKANAYYELGQTKPFACMSLKPGLGDQYYQEHKAEIWRQGYIQCTNGKKAQIPRYYEKQMEAENPQRLWRIKENRQKNAMEQKRLQLEGQDYKTVLETKERVTKKQTKKRGIL"
+        },
+        "target": {
+          "uid": "27ff432c-6948-423d-9052-f16ebb5a3e0b",
+          "label": "MT185428.1_0",
+          "names": {
+            "ID": "COUNRLRN_CDS_0001",
+            "transl_table": "11",
+            "phrog": "942",
+            "locus_tag": "COUNRLRN_CDS_0001",
+            "function": "DNA, RNA and nucleotide metabolism",
+            "product": "replication initiation protein",
+            "inference": "ab initio prediction:PHANOTATE:1.6.7",
+            "protein_id": "MT185428.1_0"
+          },
+          "start": 62,
+          "end": 926,
+          "strand": 1,
+          "sequence": "ATGGCTTGTACCCGTCCTTTGAACGCGTACCAGATGCCATCGGGGAAGATTTTTTTCACGCCGTCACGTGGCGCTAAATTCATTCAGTTGCCCTGCGGTCAGTGCATCGGTTGCCGTCTTGCTCATTCTCGTGACTGGGCGACCCGCTGCGTTCATGAAGCCCACATGCACGATCACAATTGTTTTATCACCCTGACTTATTCGCCTGAGAATTTACCTGAAGGCGGTACTCTCGTTCGTAAACATTTCACCGATTTTATGAAGCGTTTGCGTAAGGCTTTGGCTGTTGATGATATTTCGATTCGTTTTTTTGGCTGTGGTGAATATGGCTCTAAATTAGAGCGACCGCATTATCACGCGATTATTTTTGGATATGACTTTCCGGATAAGACATTACACAAGGCTGGAAGATTTAATTTATATAGGTCTTCGCTTCTTGAAAGATGTTGGACTTTTGGTTGGTCTGTTGTTGCTGCTTTTAGTTTTGAGTCGGCTGCTTACGTGGCGCGATACTGTGTTAAAAAAGTCACCGGTTCCCGTGCAGATGAGCATTATGGACATCGCATACCCGAGTTTTCGGCTATGAGCAACAGGCCTGGTATTGGCTATGATTTTTTTATGGAATATTACGATGACATAGTTAATTCAGATGCGTGTATTGGTCGCGGCGGTCGTCAGATAAAACCGCCCCGCTATTATGACAAGTTATTATCAGGCTGTGATTTTGAGAAGTTGCAGCAAAATAAAGAACGCCGACAGTTAAATGCCCAGGTATTAGACCCGTGGCGTTTGCAGGATTTGGATAAATTTAATCTGGTTAAATTCCAGCGAATGATGAGGAAATTAGAAAATGGCTCACTCTGA",
+          "translation": "MACTRPLNAYQMPSGKIFFTPSRGAKFIQLPCGQCIGCRLAHSRDWATRCVHEAHMHDHNCFITLTYSPENLPEGGTLVRKHFTDFMKRLRKALAVDDISIRFFGCGEYGSKLERPHYHAIIFGYDFPDKTLHKAGRFNLYRSSLLERCWTFGWSVVAAFSFESAAYVARYCVKKVTGSRADEHYGHRIPEFSAMSNRPGIGYDFFMEYYDDIVNSDACIGRGGRQIKPPRYYDKLLSGCDFEKLQQNKERRQLNAQVLDPWRLQDLDKFNLVKFQRMMRKLENGSL"
+        },
+        "identity": 0.30903790087463556,
+        "similarity": 0.43440233236151604
+      },
+      {
+        "uid": "f6e929a4-cdc4-4795-8adf-8f639329cb4c",
+        "query": {
+          "uid": "d2654d96-4568-4f4d-a92a-6cdae32d0d79",
+          "label": "phage_comp_7941_cycle_1_1",
+          "names": {
+            "ID": "CIJGJSTV_CDS_0002",
+            "transl_table": "11",
+            "phrog": "514",
+            "locus_tag": "CIJGJSTV_CDS_0002",
+            "function": "head and packaging",
+            "product": "major head protein",
+            "inference": "ab initio prediction:PHANOTATE:1.6.7",
+            "protein_id": "phage_comp_7941_cycle_1_1"
+          },
+          "start": 182,
+          "end": 1685,
+          "strand": -1,
+          "sequence": "ATGACCACACCGAAATATCCGGTTTTCGATGATGCATTCATCGACTTCTACTACTTCTTCTGTCCTAACAGAATCCTGTGGGACAACTTCAAGCGTTTCATGGGAGAAGCAGACGACGCACCGTGGATGCCGACAAAGACATACGAAGTGCCAAAAATCAAAATCGCATCAAACACGGAAACAACCGGAAGAGAAAACCTGAAAGGACCAAAAGAAGGAAGCATTCTGGATTACATGGGAGTGCCGACAAAAATCAACGAAAAAGAAGGAAGCGAAACAACGCTCATAAACGCACTGCCAATCAGAGCATATGTGAAAATCTGGAACGAATTCTTCAGAGACCAAAACGTGGGAAATCCAGCGGCGTATTTTACAGACGAAACATTAATTCAGTATACGGACAAAAACGATGATAATGACGAAGAAGGAATTCTGAGAGATGCAGTGACTGGTGCACGATGCCTTCCGGTGAGCCGCTTCCATGATTACTTCTCATCCTGTCTGCCGTATCCTCAGCGAGGGCCGGAAGTGACAATCGCACTGACCGGAAACGCACCTGTAAAAATGTTCGACAATAAAGGCATCAACGGAGCGACAAACCCAACCCAAATCTGGATGAGCGGAAATGCAGCGTATCTAGCACAGAACAGTGCAAATGAAACAATCGTAGCACTAGGCTCAACAGAACAGACAGGCGGAGACTCTATCGCAAGATACATTGCAACAGACCTCAGCAACATCGAAGCCGCAACAATCAACCAGCTCCGACAGGCTTTTGCAGTTCAGCACTACTACGAAGCACTGGCGCGGGGCGGCAGTCGATACCGTGAACAGGTAAGAGCGCTGTTCGGCGTAAGCATCAGTGACAAAACAGTACAGGTGCCTGAGTATCTGGGTGGTGGGCGATATCACGTTAATATCAACCAGATCGTACAGACTTCTGGCCAGCAAACCGAAAACGACACGCCTATTGGTGAAACAGGCGCAATGTCCGTCACACCTATCAACGAAAGCAGTTTCACAAAAAGCTTTGAGGAACACGGCTTTGTAATTGGTGTCATGTGTGTACGTCACAATCACAGCTATCAGCAAGGCCTTGAAAGGTTCTGGAGCCGCTCAGACAGACTGGACTACTATTTCCCGCAGTTCGCAAATCTGGGCGAACAGCCTGTCAAAAAGAAAGAAATCATGCTGACCGGCACAAGCACAGACGACGAGACTTTCGGATATCAGGAAGCTTGGGCAGACTATCGCATGAAACCGGACAGAGTGAGCGGTAAAATGCGCAGTAACGCAGAAGGAACGCTGGACTTCTGGCACTATGCAGACAACTACCAAACCGTGCCGACACTCAGTCAAGAGTGGATGAACGAGAGCAAAACAGAAATCGCGAGAACATTGATCGTACAAAACGAACCGCAATTTTTTGGTGCAATCAGAGTAATGAACAATACAACGAGATGCATGCCTCTCTACAGCGTACCGGGGCTCGAGAAACTCTAA",
+          "translation": "MTTPKYPVFDDAFIDFYYFFCPNRILWDNFKRFMGEADDAPWMPTKTYEVPKIKIASNTETTGRENLKGPKEGSILDYMGVPTKINEKEGSETTLINALPIRAYVKIWNEFFRDQNVGNPAAYFTDETLIQYTDKNDDNDEEGILRDAVTGARCLPVSRFHDYFSSCLPYPQRGPEVTIALTGNAPVKMFDNKGINGATNPTQIWMSGNAAYLAQNSANETIVALGSTEQTGGDSIARYIATDLSNIEAATINQLRQAFAVQHYYEALARGGSRYREQVRALFGVSISDKTVQVPEYLGGGRYHVNINQIVQTSGQQTENDTPIGETGAMSVTPINESSFTKSFEEHGFVIGVMCVRHNHSYQQGLERFWSRSDRLDYYFPQFANLGEQPVKKKEIMLTGTSTDDETFGYQEAWADYRMKPDRVSGKMRSNAEGTLDFWHYADNYQTVPTLSQEWMNESKTEIARTLIVQNEPQFFGAIRVMNNTTRCMPLYSVPGLEKL"
+        },
+        "target": {
+          "uid": "c27a6789-1aef-4b6b-b2da-6bd823a1e51f",
+          "label": "gi|12017983|gb|AF306496.1|_2",
+          "names": {
+            "ID": "YUTOTLID_CDS_0003",
+            "transl_table": "11",
+            "phrog": "514",
+            "locus_tag": "YUTOTLID_CDS_0003",
+            "function": "head and packaging",
+            "product": "major head protein",
+            "inference": "ab initio prediction:PHANOTATE:1.6.7",
+            "protein_id": "gi|12017983|gb|AF306496.1|_2"
+          },
+          "start": 369,
+          "end": 1602,
+          "strand": 1,
+          "sequence": "ATGTCCATCTACGATCACTTCGGAATTCCGACACAAGTTGCAAATCTCGAGATAAATGCTCTACCTTTCAGAGCTTACAATCTTATCTATAACGACTGGTTCCGAGACCAAAATCTTATCGGAAAAATCGCCGTTCCTAAAGGAGACGGACCAGACAACCACGCGGACTATCAACTACTCAAAGCCGCAAAACCGCACGACTACTTCACAAGCGCACTACCTTGGCCACAAAAAGGCATGGCTGTAGAAATGCCAATCGGCAACTCTGCACCAATCACTTACGTTCCAAACGCCGGAAACGGACCATACCCTCACTTCAACTGGGTTCAAACTCCAGGTGGACCAGGAAACAACGGAGCACTCTCACAAGTAACCTTCGGCGGTCAAAAAGCTATATCAGCAGCCGGAAATGACCCTATCGGCTATGACCCACAAGGAACACTCATAGCAGACCTATCCTCTGCAACAGCCGCAACCATCAACCAACTAAGACAAGCAATGATGATGCAATCTCTGCTTGAACTCGACGCACGCGGTGGAACACGCTATGTTGAAATTCTTAAATCTCACTTCAACGTCATTAGTCTTGACTTCCGCCTACAACGTCCAGAATATCTATCTGGCGGAACTATTGATCTCCAACAGAATCCAGTTCCACAAACGTCTTCATCAACAACGGACAGCCCACAAGGTAACCTCGCCGCCTTCTCAACGGCCTCAGAATTCGGAAACAAAATCGGATTCTCAAAATCGTTCGTAGAACACGGATATGTCCTAGGCTTCATCAGAGCCCGTGGACAAGTAACCTACCAACAAGGCCTTCACAAAATGTGGTCACGTCAAACAAGATGGGACTTCTTCTGGCCTAAATTCCAAGAACTCGGTGAACAAGCTATCCTTAACAAAGAAATCTACGCACAAGGAAATGCTACCGACTCGGAAATCTTCGGCTATCAAGAAAGATACGGTGAATACCGCTTCCGTCCATCTGAAATTAAAGGACAATTCCGCTCTAACTTCGCTGAAAGCTTAGACGTATGGCACCTTGCCGAATACTTCACAGTGAAACCATCACTGAACAAAACTTTCATTGAAAGCAACACACCAATCGAGCGATCTCTCGTAGTAACTCGCCCAGATTATCCAGATCTTATCGGAGACTTCTGGTTCGACTACACTCACGTTAGACCAATGGTCACTTACGGAGTACCAGCTACATTCGGACGCTTCTAA",
+          "translation": "MSIYDHFGIPTQVANLEINALPFRAYNLIYNDWFRDQNLIGKIAVPKGDGPDNHADYQLLKAAKPHDYFTSALPWPQKGMAVEMPIGNSAPITYVPNAGNGPYPHFNWVQTPGGPGNNGALSQVTFGGQKAISAAGNDPIGYDPQGTLIADLSSATAATINQLRQAMMMQSLLELDARGGTRYVEILKSHFNVISLDFRLQRPEYLSGGTIDLQQNPVPQTSSSTTDSPQGNLAAFSTASEFGNKIGFSKSFVEHGYVLGFIRARGQVTYQQGLHKMWSRQTRWDFFWPKFQELGEQAILNKEIYAQGNATDSEIFGYQERYGEYRFRPSEIKGQFRSNFAESLDVWHLAEYFTVKPSLNKTFIESNTPIERSLVVTRPDYPDLIGDFWFDYTHVRPMVTYGVPATFGRF"
+        },
+        "identity": 0.322265625,
+        "similarity": 0.44921875
+      },
+      {
+        "uid": "aaca48e4-496d-44e9-a953-406a536f5347",
+        "query": {
+          "uid": "eb0a8926-2a2b-4151-8ad1-cebe7ad9411f",
+          "label": "phage_comp_7941_cycle_1_4",
+          "names": {
+            "ID": "CIJGJSTV_CDS_0005",
+            "transl_table": "11",
+            "phrog": "10695",
+            "locus_tag": "CIJGJSTV_CDS_0005",
+            "function": "unknown function",
+            "product": "hypothetical protein",
+            "inference": "ab initio prediction:PHANOTATE:1.6.7",
+            "protein_id": "phage_comp_7941_cycle_1_4"
+          },
+          "start": 2499,
+          "end": 2619,
+          "strand": -1,
+          "sequence": "ATGAAGCATAGGCAGAAAATGCCGGTACGCACTGACAAGCGCATGTTCAACGTAACGGCACGCAAAACGAAAACCATCAACCTCAGCCAGAAACCCATGCGGGGTGGCATCAGACTGTAA",
+          "translation": "MKHRQKMPVRTDKRMFNVTARKTKTINLSQKPMRGGIRL"
+        },
+        "target": {
+          "uid": "8828c857-23f8-4302-9017-c6b544edcf2a",
+          "label": "gi|12017983|gb|AF306496.1|_7",
+          "names": {
+            "ID": "YUTOTLID_CDS_0008",
+            "transl_table": "11",
+            "phrog": "10695",
+            "locus_tag": "YUTOTLID_CDS_0008",
+            "function": "unknown function",
+            "product": "hypothetical protein",
+            "inference": "ab initio prediction:PHANOTATE:1.6.7",
+            "protein_id": "gi|12017983|gb|AF306496.1|_7"
+          },
+          "start": 3515,
+          "end": 3632,
+          "strand": 1,
+          "sequence": "ATGAAAAGAAAACCAATGAGCCGCAAGGCCTCTCAAAAAACCTTCAAAAAGAACACAGGCGTTCAACGCATGAACCATCTCAACCCACGCGCCATGCGTGGTGGCATTAGACTATAA",
+          "translation": "MKRKPMSRKASQKTFKKNTGVQRMNHLNPRAMRGGIRL"
+        },
+        "identity": 0.3333333333333333,
+        "similarity": 0.4358974358974359
+      },
+      {
+        "uid": "cc733688-5587-4f3b-9ac8-95b260ade628",
+        "query": {
+          "uid": "33b5f530-da78-4fa7-b864-eb7676ff8245",
+          "label": "MT185428.1_2",
+          "names": {
+            "ID": "COUNRLRN_CDS_0003",
+            "transl_table": "11",
+            "phrog": "1642",
+            "locus_tag": "COUNRLRN_CDS_0003",
+            "function": "head and packaging",
+            "product": "virion structural protein",
+            "inference": "ab initio prediction:PHANOTATE:1.6.7",
+            "protein_id": "MT185428.1_2"
+          },
+          "start": 1162,
+          "end": 1660,
+          "strand": 1,
+          "sequence": "ATGCGTACATCGAAGCCTAAGTTCCATACCCGCTATAACCCGCCACCGTCGCCCGGCATCGTGTTTGAAGAACCGACGATGACCCAGCAGCATTTTCGCGACGAGTGCGACATTAACAAGATTGTTGAGCGTGCGATAAGAACGGGAGACACGACAGTCTTTACCAGTGCTCAACGTGCTGAATTCTACGATGCATCCGCGATTACTGATTACGTGGACGCAATGGCTTTAATTGACGACGTTCACGACGACTTTAAGAGCCTGCCGTCCACGATTCGCTCGATGTTTGGTAATAACGTTAAACAGTACGTTGAGTGGATGAGTAATCCAGCAAACTGGAATCAAGCGCGTGAGCTTGGATTGTTGAGCGGCGGAGAGGTTTCGGCGACCGAACCGAAGGTTCGCGAGTCGGAACCTGCTCCGGCGTCCCCGCGGGAGCGTTCCGGTGCTGAAATGAATAAAGCACCAGATGCAGGTTCCGAACCTGCCAAAACCTGA",
+          "translation": "MRTSKPKFHTRYNPPPSPGIVFEEPTMTQQHFRDECDINKIVERAIRTGDTTVFTSAQRAEFYDASAITDYVDAMALIDDVHDDFKSLPSTIRSMFGNNVKQYVEWMSNPANWNQARELGLLSGGEVSATEPKVRESEPAPASPRERSGAEMNKAPDAGSEPAKT"
+        },
+        "target": {
+          "uid": "eeef3ce0-03aa-4df4-811e-778a26f04e02",
+          "label": "gi|12017983|gb|AF306496.1|_4",
+          "names": {
+            "ID": "YUTOTLID_CDS_0005",
+            "transl_table": "11",
+            "phrog": "1642",
+            "locus_tag": "YUTOTLID_CDS_0005",
+            "function": "head and packaging",
+            "product": "virion structural protein",
+            "inference": "ab initio prediction:PHANOTATE:1.6.7",
+            "protein_id": "gi|12017983|gb|AF306496.1|_4"
+          },
+          "start": 2329,
+          "end": 2785,
+          "strand": 1,
+          "sequence": "ATGAAAAAAATCGAACTCAGACCCAACGGAACCAAACTCGTTCACACTGTAAACGAACTACCACCTGAAACTGACCAAAGTTTCGGGAAAGAATGTGACATAAACTTCATTGTCAAGAAATTTATTAAAACTGGACAAATTACACACCTAGCTAGACGCCAAGGATTCTATGGCGATCAATCCTCAATTCCAGACTTCCAAACAGCTATGGACACCGTAACAAAAGCACAACAAGCCTTCGACGAACTACCAGCACACATGCGCAAACGGTTCGCAAACTCACCGCATGAACTCATGCAATTCTTACAAGATCCAAAAAACCGAGATGAAGCAATTTCACTCGGACTTATGGAAATGGTAGAAACTCCGCAGCAAGCACCTCAATCAACGACGAACCAAACGACGACTAAACCCGCGCCAGCAAGCGGAGAACCTACCCCTGTACCTACCCCCTAG",
+          "translation": "MKKIELRPNGTKLVHTVNELPPETDQSFGKECDINFIVKKFIKTGQITHLARRQGFYGDQSSIPDFQTAMDTVTKAQQAFDELPAHMRKRFANSPHELMQFLQDPKNRDEAISLGLMEMVETPQQAPQSTTNQTTTKPAPASGEPTPVPTP"
+        },
+        "identity": 0.30057803468208094,
+        "similarity": 0.41040462427745666
+      },
+      {
+        "uid": "981ea67d-030d-4492-95f5-13cdd913f890",
+        "query": {
+          "uid": "5c8b85ac-593f-43de-96dd-6586f322dd17",
+          "label": "MT185428.1_4",
+          "names": {
+            "ID": "COUNRLRN_CDS_0005",
+            "transl_table": "11",
+            "phrog": "514",
+            "locus_tag": "COUNRLRN_CDS_0005",
+            "function": "head and packaging",
+            "product": "major head protein",
+            "inference": "ab initio prediction:PHANOTATE:1.6.7",
+            "protein_id": "MT185428.1_4"
+          },
+          "start": 1817,
+          "end": 3518,
+          "strand": 1,
+          "sequence": "ATGAGTAAATTCGGTCGTAAAGTACCTAGTAATGCAAAAAGTCAGCATAATTTTTCAGTAATCCCGAGTGCCAATATTCAGCGTTCGGTCTTTAACCGCAGCTCTGGTTATAAAACCACTTTTGACGCTGGTTATTTGATTCCCGTGTTTCTGGATGAGGCTTTGCCGGGTGATACGTTCCACCTGAAAACGTCCGTACTGGCGCGTTTATCCACGCCAGTGGTGCCGTTTATGGATAACCTGCGACTGGACATCCAGTATTTTTCCGTGCCCTACCGTCTGGTCTGGGATAACTGGCAGAAGTTCAACGGTGAGCAGAAGAATCCAGGCGATTCGACGGATTACCTTATCCCGCAGATTAAAGCCCCTGCAGGCGGCTTCCCTGTAGGCTCCCTTGCCGATTATTTTGGTGTTCCCACAGGTGTGGAGAATATCAGTGTAAGCGCTCTGCCGTTCCGCGCTTATAACCTGATTTATAACGAGTGGTATCGTGATGAAAACCTGATTAATTCCGCCCCGCTTCCGCTTGGCGATGAGGAAGAAACAGGCCTCGCCAATTTCCCGCTGCGTAAGCGTGCCAAGCGTCACGATTACTTCACAAGTGCCCTGCCGTGGCCTCAGAAAGGTGAAGGCGTTGAGATTGGTTTAGGCGTTCCGCCGTCGTATACGCTGGAGTACCCTTATTACAAGGAAGGTATGGGATTTATTTCGTCTAACTATGGTGCGTCTGGAAATATTGGTCGTACTTTTCCGACGTATATTGCTCGTAGTAGTGTTGGTGATGATTCTTCATCTAACATTGGTAATGCTGCTTATTTTTCCGAAGGCCTGGAGAATGGTATTAATTTTCCGAATGCTCCGGCTCGTGGTCGCTATGATGTGCTTGGTGGTTTTGACCCCAATACACCTCCGGTTACGTTGAAGAAAGAAGGTGGTGAAGTTGTTGATAACCTCACGATTAACTCGCTGCGTCAGGCGTTCCAGCTTCAGCGGCTGCTTGAGCGTGATGCTCGCGGTGGTACGCGATACATTGAGATTATTCGCAGTCATTTTGGCGTCATTTCTCCTGATGCCCGTGTTCAGCGTCCTGAGTATCTTGGCTCTGGTTCGTTCGATATAAATATTAATCCCGTTCTTCAAAACTCCGCGACTACCGACGCCAGTCCGCAAGGTAACCTTGCCGCTTATGGCGTTTCAGGAGGTGTTAACCGTGGTTTTTCTCACTCTTTTGTTGAGCATTGCTTTGTTATTGGCCTTGTCTCCGTTCGAGCAGATTTGACCTACCAGCAAGGCATTCCGCGCATGTTCTCCCGTCAGACCCGCTTTGATTTCTACTGGCCTGCACTGGCCCACCTGGGCGAACAGGCTATTCTTAACAAAGAGATTTATGCGCAAGGTAACGCCAAGGATGATGAAGTCTTTGGCTACCAGGAACGTTATGCGGAGTACCGCTACCGACCGTCCCAGATTACTGGTAAATTGCGTTCTACCGACCCGCAATCCCTCGACGTGTGGCATTTAGCCCAGCGGTTCGACTCTCTGCCCGCACTGAATCAGGAGTTTATCGAGGAGAATCCACCGATGAAGCGCGTTCTCGCCGTACAGGACGAACCCCAGTTCATCATGGATGCGTTCTTTGACCTGAAGTGTGTGCGGCCTATGCCTGTTTACTCAGTACCAGGTCTTATTGACCATTTCTAA",
+          "translation": "MSKFGRKVPSNAKSQHNFSVIPSANIQRSVFNRSSGYKTTFDAGYLIPVFLDEALPGDTFHLKTSVLARLSTPVVPFMDNLRLDIQYFSVPYRLVWDNWQKFNGEQKNPGDSTDYLIPQIKAPAGGFPVGSLADYFGVPTGVENISVSALPFRAYNLIYNEWYRDENLINSAPLPLGDEEETGLANFPLRKRAKRHDYFTSALPWPQKGEGVEIGLGVPPSYTLEYPYYKEGMGFISSNYGASGNIGRTFPTYIARSSVGDDSSSNIGNAAYFSEGLENGINFPNAPARGRYDVLGGFDPNTPPVTLKKEGGEVVDNLTINSLRQAFQLQRLLERDARGGTRYIEIIRSHFGVISPDARVQRPEYLGSGSFDININPVLQNSATTDASPQGNLAAYGVSGGVNRGFSHSFVEHCFVIGLVSVRADLTYQQGIPRMFSRQTRFDFYWPALAHLGEQAILNKEIYAQGNAKDDEVFGYQERYAEYRYRPSQITGKLRSTDPQSLDVWHLAQRFDSLPALNQEFIEENPPMKRVLAVQDEPQFIMDAFFDLKCVRPMPVYSVPGLIDHF"
+        },
+        "target": {
+          "uid": "c27a6789-1aef-4b6b-b2da-6bd823a1e51f",
+          "label": "gi|12017983|gb|AF306496.1|_2",
+          "names": {
+            "ID": "YUTOTLID_CDS_0003",
+            "transl_table": "11",
+            "phrog": "514",
+            "locus_tag": "YUTOTLID_CDS_0003",
+            "function": "head and packaging",
+            "product": "major head protein",
+            "inference": "ab initio prediction:PHANOTATE:1.6.7",
+            "protein_id": "gi|12017983|gb|AF306496.1|_2"
+          },
+          "start": 369,
+          "end": 1602,
+          "strand": 1,
+          "sequence": "ATGTCCATCTACGATCACTTCGGAATTCCGACACAAGTTGCAAATCTCGAGATAAATGCTCTACCTTTCAGAGCTTACAATCTTATCTATAACGACTGGTTCCGAGACCAAAATCTTATCGGAAAAATCGCCGTTCCTAAAGGAGACGGACCAGACAACCACGCGGACTATCAACTACTCAAAGCCGCAAAACCGCACGACTACTTCACAAGCGCACTACCTTGGCCACAAAAAGGCATGGCTGTAGAAATGCCAATCGGCAACTCTGCACCAATCACTTACGTTCCAAACGCCGGAAACGGACCATACCCTCACTTCAACTGGGTTCAAACTCCAGGTGGACCAGGAAACAACGGAGCACTCTCACAAGTAACCTTCGGCGGTCAAAAAGCTATATCAGCAGCCGGAAATGACCCTATCGGCTATGACCCACAAGGAACACTCATAGCAGACCTATCCTCTGCAACAGCCGCAACCATCAACCAACTAAGACAAGCAATGATGATGCAATCTCTGCTTGAACTCGACGCACGCGGTGGAACACGCTATGTTGAAATTCTTAAATCTCACTTCAACGTCATTAGTCTTGACTTCCGCCTACAACGTCCAGAATATCTATCTGGCGGAACTATTGATCTCCAACAGAATCCAGTTCCACAAACGTCTTCATCAACAACGGACAGCCCACAAGGTAACCTCGCCGCCTTCTCAACGGCCTCAGAATTCGGAAACAAAATCGGATTCTCAAAATCGTTCGTAGAACACGGATATGTCCTAGGCTTCATCAGAGCCCGTGGACAAGTAACCTACCAACAAGGCCTTCACAAAATGTGGTCACGTCAAACAAGATGGGACTTCTTCTGGCCTAAATTCCAAGAACTCGGTGAACAAGCTATCCTTAACAAAGAAATCTACGCACAAGGAAATGCTACCGACTCGGAAATCTTCGGCTATCAAGAAAGATACGGTGAATACCGCTTCCGTCCATCTGAAATTAAAGGACAATTCCGCTCTAACTTCGCTGAAAGCTTAGACGTATGGCACCTTGCCGAATACTTCACAGTGAAACCATCACTGAACAAAACTTTCATTGAAAGCAACACACCAATCGAGCGATCTCTCGTAGTAACTCGCCCAGATTATCCAGATCTTATCGGAGACTTCTGGTTCGACTACACTCACGTTAGACCAATGGTCACTTACGGAGTACCAGCTACATTCGGACGCTTCTAA",
+          "translation": "MSIYDHFGIPTQVANLEINALPFRAYNLIYNDWFRDQNLIGKIAVPKGDGPDNHADYQLLKAAKPHDYFTSALPWPQKGMAVEMPIGNSAPITYVPNAGNGPYPHFNWVQTPGGPGNNGALSQVTFGGQKAISAAGNDPIGYDPQGTLIADLSSATAATINQLRQAMMMQSLLELDARGGTRYVEILKSHFNVISLDFRLQRPEYLSGGTIDLQQNPVPQTSSSTTDSPQGNLAAFSTASEFGNKIGFSKSFVEHGYVLGFIRARGQVTYQQGLHKMWSRQTRWDFFWPKFQELGEQAILNKEIYAQGNATDSEIFGYQERYGEYRFRPSEIKGQFRSNFAESLDVWHLAEYFTVKPSLNKTFIESNTPIERSLVVTRPDYPDLIGDFWFDYTHVRPMVTYGVPATFGRF"
+        },
+        "identity": 0.37225042301184436,
+        "similarity": 0.4703891708967851
+      },
+      {
+        "uid": "1e2fb698-b2a6-48d1-97c2-350267f940f7",
+        "query": {
+          "uid": "9574f461-a1d8-4ad2-833a-9d229221191f",
+          "label": "MT185428.1_6",
+          "names": {
+            "ID": "COUNRLRN_CDS_0007",
+            "transl_table": "11",
+            "phrog": "10695",
+            "locus_tag": "COUNRLRN_CDS_0007",
+            "function": "unknown function",
+            "product": "hypothetical protein",
+            "inference": "ab initio prediction:PHANOTATE:1.6.7",
+            "protein_id": "MT185428.1_6"
+          },
+          "start": 4354,
+          "end": 4474,
+          "strand": 1,
+          "sequence": "ATGGCTCGTTCTCGCCGTCGTATGTCTAAGCGTTCTTCCCGTCGTTCGTTCCGTAAGTACGCAAAGACGCATAAACGTAACTTTAAAGCCCGCTCCATGCGTGGCGGCATTCGTCTTTGA",
+          "translation": "MARSRRRMSKRSSRRSFRKYAKTHKRNFKARSMRGGIRL"
+        },
+        "target": {
+          "uid": "8828c857-23f8-4302-9017-c6b544edcf2a",
+          "label": "gi|12017983|gb|AF306496.1|_7",
+          "names": {
+            "ID": "YUTOTLID_CDS_0008",
+            "transl_table": "11",
+            "phrog": "10695",
+            "locus_tag": "YUTOTLID_CDS_0008",
+            "function": "unknown function",
+            "product": "hypothetical protein",
+            "inference": "ab initio prediction:PHANOTATE:1.6.7",
+            "protein_id": "gi|12017983|gb|AF306496.1|_7"
+          },
+          "start": 3515,
+          "end": 3632,
+          "strand": 1,
+          "sequence": "ATGAAAAGAAAACCAATGAGCCGCAAGGCCTCTCAAAAAACCTTCAAAAAGAACACAGGCGTTCAACGCATGAACCATCTCAACCCACGCGCCATGCGTGGTGGCATTAGACTATAA",
+          "translation": "MKRKPMSRKASQKTFKKNTGVQRMNHLNPRAMRGGIRL"
+        },
+        "identity": 0.4,
+        "similarity": 0.575
+      }
+    ],
+    "groups": [
+      {
+        "uid": "c8750506-30f5-4ccf-b439-6d31900da71a",
+        "label": "major head protein",
+        "genes": [
+          "c27a6789-1aef-4b6b-b2da-6bd823a1e51f",
+          "5c8b85ac-593f-43de-96dd-6586f322dd17",
+          "d2654d96-4568-4f4d-a92a-6cdae32d0d79"
+        ],
+        "hidden": false,
+        "colour": "rgb(110, 64, 170)"
+      },
+      {
+        "uid": "26d037f0-02a9-4f6b-99c2-686fcdd11f8d",
+        "label": "hypothetical protein",
+        "genes": [
+          "eb0a8926-2a2b-4151-8ad1-cebe7ad9411f",
+          "9574f461-a1d8-4ad2-833a-9d229221191f",
+          "8828c857-23f8-4302-9017-c6b544edcf2a"
+        ],
+        "hidden": false,
+        "colour": "rgb(255, 94, 99)"
+      },
+      {
+        "uid": "56e92c79-c532-40f0-8b33-e9c1dda09d64",
+        "label": "replication initiation protein",
+        "genes": [
+          "8b162da8-7583-4091-86bc-14776ed93d43",
+          "27ff432c-6948-423d-9052-f16ebb5a3e0b"
+        ],
+        "hidden": false,
+        "colour": "rgb(175, 240, 91)"
+      },
+      {
+        "uid": "ac2f322d-8b96-449f-9c75-b988641de884",
+        "label": "virion structural protein",
+        "genes": [
+          "33b5f530-da78-4fa7-b864-eb7676ff8245",
+          "eeef3ce0-03aa-4df4-811e-778a26f04e02"
+        ],
+        "hidden": false,
+        "colour": "rgb(26, 199, 194)"
+      }
+    ]
+  }
+}
